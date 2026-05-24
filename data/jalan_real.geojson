@@ -1,0 +1,6239 @@
+{
+  "type": "FeatureCollection",
+  "generator": "overpass-turbo",
+  "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
+  "timestamp": "2026-05-24T15:53:00Z",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1304301973",
+        "area": "yes",
+        "highway": "pedestrian"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              110.4276212,
+              -6.9693432
+            ],
+            [
+              110.427625,
+              -6.9696739
+            ],
+            [
+              110.427738,
+              -6.9696727
+            ],
+            [
+              110.4277343,
+              -6.9693419
+            ],
+            [
+              110.4276212,
+              -6.9693432
+            ]
+          ]
+        ]
+      },
+      "id": "way/1304301973"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1502376764",
+        "area": "yes",
+        "highway": "pedestrian"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              110.4247775,
+              -6.9681482
+            ],
+            [
+              110.4231537,
+              -6.9675608
+            ],
+            [
+              110.4229757,
+              -6.9677483
+            ],
+            [
+              110.4230518,
+              -6.9677668
+            ],
+            [
+              110.4232338,
+              -6.9677573
+            ],
+            [
+              110.4234619,
+              -6.9677915
+            ],
+            [
+              110.4247469,
+              -6.9682386
+            ],
+            [
+              110.4247775,
+              -6.9681482
+            ]
+          ]
+        ]
+      },
+      "id": "way/1502376764"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/9873244",
+        "highway": "secondary",
+        "lanes": "1",
+        "motorcycle": "yes",
+        "name": "Jalan Letnan Jenderal Suprapto",
+        "oneway": "yes",
+        "smoothness": "good",
+        "source": "HOT_InAWARESurvey_2018",
+        "surface": "paving_stones",
+        "width": "7"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            110.430068,
+            -6.9676806
+          ],
+          [
+            110.4300011,
+            -6.9677149
+          ],
+          [
+            110.4295481,
+            -6.9679476
+          ],
+          [
+            110.4294447,
+            -6.9679869
+          ],
+          [
+            110.4291033,
+            -6.9681292
+          ],
+          [
+            110.4290375,
+            -6.9681523
+          ],
+          [
+            110.4287231,
+            -6.968263
+          ],
+          [
+            110.4285863,
+            -6.9683042
+          ],
+          [
+            110.4283618,
+            -6.9683641
+          ],
+          [
+            110.4281976,
+            -6.9683366
+          ],
+          [
+            110.4280639,
+            -6.96836
+          ],
+          [
+            110.4277539,
+            -6.9683857
+          ],
+          [
+            110.4276167,
+            -6.9684154
+          ],
+          [
+            110.4275295,
+            -6.9684295
+          ],
+          [
+            110.4273049,
+            -6.9684373
+          ],
+          [
+            110.4271834,
+            -6.9684459
+          ],
+          [
+            110.4265189,
+            -6.9685441
+          ],
+          [
+            110.4263879,
+            -6.9685651
+          ],
+          [
+            110.4252576,
+            -6.9687524
+          ]
+        ]
+      },
+      "id": "way/9873244"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/9873272",
+        "highway": "primary",
+        "lanes": "1",
+        "motorcycle": "yes",
+        "name": "Jalan Empu Tantular",
+        "oneway": "yes",
+        "smoothness": "good",
+        "source": "HOT_InAWARESurvey_2018",
+        "surface": "paving_stones",
+        "width": "10"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            110.425111,
+            -6.967508
+          ],
+          [
+            110.4251237,
+            -6.9672063
+          ],
+          [
+            110.4251333,
+            -6.9669779
+          ],
+          [
+            110.425145,
+            -6.9668174
+          ],
+          [
+            110.4251761,
+            -6.9663997
+          ]
+        ]
+      },
+      "id": "way/9873272"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/23781434",
+        "highway": "secondary",
+        "name": "Jalan Pemuda",
+        "oneway": "yes"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            110.4252576,
+            -6.9687524
+          ],
+          [
+            110.4251911,
+            -6.9687666
+          ]
+        ]
+      },
+      "id": "way/23781434"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/23781777",
+        "highway": "residential",
+        "lanes": "1",
+        "motorcycle": "yes",
+        "name": "Jalan Suari",
+        "oneway": "no",
+        "smoothness": "good",
+        "source": "HOT_InAWARESurvey_2018",
+        "surface": "paving_stones",
+        "width": "7"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            110.4276891,
+            -6.969716
+          ],
+          [
+            110.4277281,
+            -6.9699351
+          ],
+          [
+            110.4277445,
+            -6.9700268
+          ],
+          [
+            110.4277894,
+            -6.9702953
+          ],
+          [
+            110.4278646,
+            -6.9707679
+          ]
+        ]
+      },
+      "id": "way/23781777"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/23798070",
+        "highway": "primary",
+        "lanes": "1",
+        "motor_vehicle": "yes",
+        "motorcycle": "yes",
+        "name": "Jalan Merak",
+        "oneway": "yes",
+        "smoothness": "good",
+        "source": "HOT_InAWARESurvey_2018",
+        "surface": "paving_stones",
+        "width": "5"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            110.4262575,
+            -6.9660924
+          ],
+          [
+            110.4263933,
+            -6.9660888
+          ],
+          [
+            110.4274124,
+            -6.9661233
+          ],
+          [
+            110.4275805,
+            -6.9661357
+          ],
+          [
+            110.427717,
+            -6.9661232
+          ],
+          [
+            110.4279271,
+            -6.9660687
+          ],
+          [
+            110.4285134,
+            -6.9657516
+          ],
+          [
+            110.4292993,
+            -6.9652716
+          ]
+        ]
+      },
+      "id": "way/23798070"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/23798072",
+        "highway": "residential",
+        "lanes": "1",
+        "name": "Jalan Kedasih",
+        "oneway": "no",
+        "smoothness": "good",
+        "source": "HOT_InAWARESurvey_2018",
+        "surface": "paving_stones",
+        "width": "4"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            110.4286512,
+            -6.967199
+          ],
+          [
+            110.4286422,
+            -6.9670596
+          ],
+          [
+            110.4286196,
+            -6.966727
+          ],
+          [
+            110.4285134,
+            -6.9657516
+          ]
+        ]
+      },
+      "id": "way/23798072"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/23892925",
+        "highway": "secondary",
+        "lanes": "1",
+        "motorcycle": "yes",
+        "name": "Jalan Kolonel Sugiono",
+        "oneway": "yes",
+        "smoothness": "intermediate",
+        "source": "HOT_InAWARESurvey_2018",
+        "surface": "paving_stones",
+        "width": "6"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            110.422276,
+            -6.9682384
+          ],
+          [
+            110.422731,
+            -6.9681278
+          ],
+          [
+            110.4228655,
+            -6.9681182
+          ],
+          [
+            110.4229939,
+            -6.9681245
+          ],
+          [
+            110.4231374,
+            -6.9681578
+          ]
+        ]
+      },
+      "id": "way/23892925"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/24040530",
+        "highway": "primary_link"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            110.4239788,
+            -6.9698395
+          ],
+          [
+            110.4239418,
+            -6.9697857
+          ],
+          [
+            110.4239197,
+            -6.9697534
+          ],
+          [
+            110.4239016,
+            -6.9697272
+          ],
+          [
+            110.4238854,
+            -6.9697035
+          ],
+          [
+            110.4238634,
+            -6.9696715
+          ],
+          [
+            110.4238455,
+            -6.9696454
+          ],
+          [
+            110.4238265,
+            -6.9696178
+          ]
+        ]
+      },
+      "id": "way/24040530"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/24040534",
+        "highway": "primary",
+        "lanes": "1",
+        "motorcycle": "yes",
+        "name": "Jalan Imam Bonjol",
+        "oneway": "yes",
+        "smoothness": "good",
+        "source": "HOT_InAWARESurvey_2018",
+        "surface": "paving_stones",
+        "width": "6"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            110.4224051,
+            -6.9699104
+          ],
+          [
+            110.4227981,
+            -6.9698038
+          ],
+          [
+            110.4228732,
+            -6.9697911
+          ],
+          [
+            110.4229356,
+            -6.9697692
+          ],
+          [
+            110.4230469,
+            -6.9697419
+          ],
+          [
+            110.4233905,
+            -6.9696857
+          ],
+          [
+            110.4234653,
+            -6.9696734
+          ],
+          [
+            110.4237342,
+            -6.9696381
+          ],
+          [
+            110.4238265,
+            -6.9696178
+          ],
+          [
+            110.4239139,
+            -6.9695702
+          ],
+          [
+            110.4240319,
+            -6.969473
+          ],
+          [
+            110.4241982,
+            -6.9693146
+          ],
+          [
+            110.4246888,
+            -6.9688582
+          ]
+        ]
+      },
+      "id": "way/24040534"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/24508081",
+        "access": "destination",
+        "highway": "service",
+        "lanes": "1",
+        "motorcycle": "yes",
+        "name": "Jalan Pedamaran",
+        "oneway": "yes",
+        "smoothness": "good",
+        "source": "HOT_InAWARESurvey_2018",
+        "surface": "asphalt",
+        "width": "6"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            110.4251507,
+            -6.9714262
+          ],
+          [
+            110.4251602,
+            -6.9720409
+          ],
+          [
+            110.4251653,
+            -6.9723757
+          ],
+          [
+            110.4251668,
+            -6.9724699
+          ],
+          [
+            110.4251652,
+            -6.97261
+          ],
+          [
+            110.425164,
+            -6.972711
+          ],
+          [
+            110.4251636,
+            -6.9727465
+          ],
+          [
+            110.4251602,
+            -6.973036
+          ],
+          [
+            110.4251553,
+            -6.9734511
+          ],
+          [
+            110.4251553,
+            -6.9735451
+          ],
+          [
+            110.4251403,
+            -6.9738331
+          ],
+          [
+            110.4251235,
+            -6.9742744
+          ],
+          [
+            110.4251023,
+            -6.9749106
+          ]
+        ]
+      },
+      "id": "way/24508081"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/40613755",
+        "highway": "residential",
+        "name": "Jalan Nuri",
+        "surface": "paving_stones"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            110.4273174,
+            -6.9683814
+          ],
+          [
+            110.4272992,
+            -6.9682067
+          ],
+          [
+            110.4272965,
+            -6.9681444
+          ],
+          [
+            110.4273136,
+            -6.9680979
+          ],
+          [
+            110.4273337,
+            -6.9680516
+          ],
+          [
+            110.4273579,
+            -6.968015
+          ],
+          [
+            110.4273729,
+            -6.9679628
+          ],
+          [
+            110.427389,
+            -6.9677571
+          ],
+          [
+            110.4274061,
+            -6.9674057
+          ]
+        ]
+      },
+      "id": "way/40613755"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/40972482",
+        "highway": "residential",
+        "lanes": "1",
+        "motorcycle": "yes",
+        "name": "Jalan Sendowo",
+        "note": "field survey",
+        "oneway": "no",
+        "smoothness": "good",
+        "source": "HOT_InAWARESurvey_2018",
+        "surface": "paving_stones",
+        "width": "7"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            110.4285465,
+            -6.9695937
+          ],
+          [
+            110.4283952,
+            -6.9696227
+          ],
+          [
+            110.427752,
+            -6.969709
+          ],
+          [
+            110.4276891,
+            -6.969716
+          ],
+          [
+            110.42761,
+            -6.9697209
+          ],
+          [
+            110.4267409,
+            -6.9697752
+          ],
+          [
+            110.4265907,
+            -6.9697912
+          ],
+          [
+            110.4261018,
+            -6.9698539
+          ],
+          [
+            110.4258681,
+            -6.9698839
+          ]
+        ]
+      },
+      "id": "way/40972482"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/110163886",
+        "bridge": "yes",
+        "highway": "secondary",
+        "layer": "1",
+        "name": "Jalan K.H. Agus Salim",
+        "oneway": "yes",
+        "surface": "concrete",
+        "width": "5"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            110.4255897,
+            -6.9714634
+          ],
+          [
+            110.4253784,
+            -6.971454
+          ]
+        ]
+      },
+      "id": "way/110163886"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/110163891",
+        "bridge": "yes",
+        "highway": "primary",
+        "layer": "1",
+        "name": "Jalan Pemuda",
+        "oneway": "yes",
+        "surface": "asphalt"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            110.4251911,
+            -6.9687666
+          ],
+          [
+            110.4249797,
+            -6.9689051
+          ]
+        ]
+      },
+      "id": "way/110163891"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/110163900",
+        "highway": "secondary",
+        "lanes": "1",
+        "motorcycle": "yes",
+        "name": "Jalan K.H. Agus Salim",
+        "oneway": "yes",
+        "smoothness": "good",
+        "source": "HOT_InAWARESurvey_2018",
+        "surface": "concrete",
+        "width": "5"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            110.4240378,
+            -6.9713613
+          ],
+          [
+            110.423945,
+            -6.9713548
+          ],
+          [
+            110.4232802,
+            -6.9713081
+          ],
+          [
+            110.4230261,
+            -6.9712788
+          ],
+          [
+            110.4229577,
+            -6.9712575
+          ],
+          [
+            110.4229038,
+            -6.9712379
+          ],
+          [
+            110.4228718,
+            -6.9712215
+          ],
+          [
+            110.42283,
+            -6.9711809
+          ],
+          [
+            110.4227867,
+            -6.9711397
+          ]
+        ]
+      },
+      "id": "way/110163900"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/110163908",
+        "bridge": "yes",
+        "highway": "primary",
+        "layer": "1",
+        "name": "Jalan Imam Bonjol",
+        "oneway": "yes",
+        "surface": "asphalt"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            110.4248486,
+            -6.9687116
+          ],
+          [
+            110.4250837,
+            -6.9685541
+          ]
+        ]
+      },
+      "id": "way/110163908"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/110163916",
+        "highway": "primary",
+        "lanes": "1",
+        "motorcycle": "yes",
+        "name": "Jalan Pemuda",
+        "oneway": "yes",
+        "smoothness": "good",
+        "source": "HOT_InAWARESurvey_2018",
+        "surface": "paving_stones",
+        "width": "10"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            110.4249797,
+            -6.9689051
+          ],
+          [
+            110.4249354,
+            -6.9689408
+          ],
+          [
+            110.4248109,
+            -6.9690412
+          ],
+          [
+            110.4247182,
+            -6.9691353
+          ],
+          [
+            110.4242558,
+            -6.9695769
+          ],
+          [
+            110.4239788,
+            -6.9698395
+          ],
+          [
+            110.4238549,
+            -6.9699376
+          ]
+        ]
+      },
+      "id": "way/110163916"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/110163920",
+        "highway": "primary",
+        "name": "Jalan Imam Bonjol",
+        "oneway": "yes"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            110.4250837,
+            -6.9685541
+          ],
+          [
+            110.4251441,
+            -6.968525
+          ]
+        ]
+      },
+      "id": "way/110163920"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/112768305",
+        "highway": "residential",
+        "surface": "paving_stones"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            110.4251333,
+            -6.9669779
+          ],
+          [
+            110.4259261,
+            -6.9667144
+          ]
+        ]
+      },
+      "id": "way/112768305"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/112768309",
+        "highway": "secondary",
+        "surface": "paving_stones"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            110.4246888,
+            -6.9688582
+          ],
+          [
+            110.4247281,
+            -6.9689319
+          ],
+          [
+            110.4247442,
+            -6.9689557
+          ],
+          [
+            110.4247799,
+            -6.9690043
+          ],
+          [
+            110.4248109,
+            -6.9690412
+          ]
+        ]
+      },
+      "id": "way/112768309"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/112768317",
+        "highway": "residential",
+        "lanes": "1",
+        "motorcar": "yes",
+        "motorcycle": "yes",
+        "name": "Jalan Branjangan",
+        "oneway": "yes",
+        "smoothness": "good",
+        "source": "HOT_InAWARESurvey_2018",
+        "surface": "paving_stones",
+        "width": "6"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            110.4259261,
+            -6.9667144
+          ],
+          [
+            110.4261958,
+            -6.9675035
+          ],
+          [
+            110.4262247,
+            -6.9676086
+          ],
+          [
+            110.4262587,
+            -6.9677326
+          ],
+          [
+            110.4263261,
+            -6.9679781
+          ],
+          [
+            110.4263879,
+            -6.9685651
+          ]
+        ]
+      },
+      "id": "way/112768317"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/112768318",
+        "highway": "residential",
+        "lanes": "1",
+        "oneway": "no",
+        "smoothness": "good",
+        "source": "HOT_InAWARESurvey_2018",
+        "surface": "paving_stones",
+        "width": "5"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            110.425093,
+            -6.9680605
+          ],
+          [
+            110.4263261,
+            -6.9679781
+          ]
+        ]
+      },
+      "id": "way/112768318"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/112768320",
+        "highway": "service",
+        "name": "Jalan Taman Srigunting"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            110.4280242,
+            -6.9679331
+          ],
+          [
+            110.4277441,
+            -6.9679406
+          ],
+          [
+            110.4275201,
+            -6.9679515
+          ],
+          [
+            110.4273729,
+            -6.9679628
+          ]
+        ]
+      },
+      "id": "way/112768320"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/112768327",
+        "highway": "service"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            110.4280639,
+            -6.96836
+          ],
+          [
+            110.4280552,
+            -6.9682763
+          ],
+          [
+            110.4280242,
+            -6.9679331
+          ],
+          [
+            110.4280183,
+            -6.9676407
+          ]
+        ]
+      },
+      "id": "way/112768327"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/112768337",
+        "highway": "residential",
+        "lanes": "1",
+        "name": "Jalan Garuda",
+        "oneway": "no",
+        "smoothness": "good",
+        "source": "HOT_InAWARESurvey_2018",
+        "surface": "paving_stones",
+        "width": "6"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            110.4261958,
+            -6.9675035
+          ],
+          [
+            110.4262903,
+            -6.9674789
+          ],
+          [
+            110.4264285,
+            -6.9674549
+          ],
+          [
+            110.426572,
+            -6.9674376
+          ],
+          [
+            110.4267256,
+            -6.9674241
+          ]
+        ]
+      },
+      "id": "way/112768337"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/112768339",
+        "highway": "residential",
+        "lanes": "1",
+        "name": "Jalan Cendrawasih I",
+        "oneway": "no",
+        "smoothness": "good",
+        "source": "HOT_InAWARESurvey_2018",
+        "surface": "paving_stones",
+        "width": "5"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            110.4279782,
+            -6.9670621
+          ],
+          [
+            110.4286196,
+            -6.966727
+          ],
+          [
+            110.4296286,
+            -6.9662101
+          ]
+        ]
+      },
+      "id": "way/112768339"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/112768347",
+        "highway": "service",
+        "lanes": "1",
+        "motorcycle": "yes",
+        "oneway": "no",
+        "smoothness": "good",
+        "source": "HOT_InAWARESurvey_2018",
+        "surface": "paving_stones",
+        "width": "7"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            110.4280639,
+            -6.96836
+          ],
+          [
+            110.428082,
+            -6.9687385
+          ],
+          [
+            110.428099,
+            -6.9692825
+          ]
+        ]
+      },
+      "id": "way/112768347"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/112768349",
+        "highway": "residential",
+        "lanes": "1",
+        "name": "Jalan Garuda",
+        "oneway": "no",
+        "smoothness": "good",
+        "source": "HOT_InAWARESurvey_2018",
+        "surface": "paving_stones",
+        "width": "6"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            110.4263933,
+            -6.9660888
+          ],
+          [
+            110.4266988,
+            -6.9673153
+          ],
+          [
+            110.4267256,
+            -6.9674241
+          ]
+        ]
+      },
+      "id": "way/112768349"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/112768362",
+        "highway": "residential",
+        "lanes": "1",
+        "name": "Jalan Perkutut",
+        "oneway": "no",
+        "smoothness": "good",
+        "source": "HOT_InAWARESurvey_2018",
+        "surface": "paving_stones",
+        "width": "6"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            110.4275805,
+            -6.9661357
+          ],
+          [
+            110.4276985,
+            -6.9663866
+          ],
+          [
+            110.4279257,
+            -6.9668647
+          ],
+          [
+            110.4279741,
+            -6.967015
+          ],
+          [
+            110.4279782,
+            -6.9670621
+          ],
+          [
+            110.4279788,
+            -6.9670815
+          ],
+          [
+            110.428009,
+            -6.9673464
+          ],
+          [
+            110.4279087,
+            -6.9673611
+          ],
+          [
+            110.4278474,
+            -6.967375
+          ],
+          [
+            110.4278004,
+            -6.9673781
+          ],
+          [
+            110.4276735,
+            -6.9673866
+          ],
+          [
+            110.4274061,
+            -6.9674057
+          ]
+        ]
+      },
+      "id": "way/112768362"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/251733786",
+        "highway": "primary",
+        "name": "Jalan Imam Bonjol",
+        "oneway": "yes",
+        "surface": "paving_stones"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            110.4246888,
+            -6.9688582
+          ],
+          [
+            110.4248486,
+            -6.9687116
+          ]
+        ]
+      },
+      "id": "way/251733786"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/330314475",
+        "highway": "service",
+        "lanes": "1",
+        "motorcycle": "yes",
+        "name": "Jalan Kompleks Pertokoan Jurnatan",
+        "oneway": "no",
+        "smoothness": "good",
+        "source": "HOT_InAWARESurvey_2018",
+        "surface": "paving_stones",
+        "width": "6"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            110.4277445,
+            -6.9700268
+          ],
+          [
+            110.4285944,
+            -6.9698277
+          ]
+        ]
+      },
+      "id": "way/330314475"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/330314476",
+        "highway": "service",
+        "lanes": "1",
+        "motorcycle": "yes",
+        "name": "Jalan Komplek Pertokoan Jurnatan",
+        "oneway": "no",
+        "smoothness": "good",
+        "source": "HOT_InAWARESurvey_2018",
+        "surface": "paving_stones",
+        "width": "6"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            110.4286069,
+            -6.9698813
+          ],
+          [
+            110.4286189,
+            -6.969933
+          ],
+          [
+            110.4286491,
+            -6.9700631
+          ]
+        ]
+      },
+      "id": "way/330314476"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/330314477",
+        "highway": "service"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            110.4286491,
+            -6.9700631
+          ],
+          [
+            110.4287585,
+            -6.970457
+          ],
+          [
+            110.4287717,
+            -6.9705026
+          ]
+        ]
+      },
+      "id": "way/330314477"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/330314479",
+        "highway": "service",
+        "lanes": "1",
+        "motorcycle": "yes",
+        "name": "Jalan Komplek Pertokoan Jurnatan",
+        "oneway": "no",
+        "smoothness": "good",
+        "source": "HOT_InAWARESurvey_2018",
+        "surface": "paving_stones",
+        "width": "6"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            110.4286069,
+            -6.9698813
+          ],
+          [
+            110.4295019,
+            -6.9697075
+          ],
+          [
+            110.4295138,
+            -6.9697492
+          ]
+        ]
+      },
+      "id": "way/330314479"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/340401671",
+        "highway": "living_street",
+        "name": "Gang III"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            110.4295174,
+            -6.9690545
+          ],
+          [
+            110.4291149,
+            -6.9691462
+          ]
+        ]
+      },
+      "id": "way/340401671"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/340401672",
+        "highway": "residential",
+        "name": "Gang II"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            110.4295879,
+            -6.9693861
+          ],
+          [
+            110.4295793,
+            -6.9693447
+          ],
+          [
+            110.4295559,
+            -6.9692186
+          ],
+          [
+            110.4295174,
+            -6.9690545
+          ],
+          [
+            110.4294763,
+            -6.968881
+          ]
+        ]
+      },
+      "id": "way/340401672"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/340401673",
+        "highway": "residential",
+        "motorcar": "no",
+        "motorcycle": "yes",
+        "name": "Gang III"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            110.4294763,
+            -6.968881
+          ],
+          [
+            110.4293725,
+            -6.9689053
+          ],
+          [
+            110.4292435,
+            -6.9689409
+          ],
+          [
+            110.4291082,
+            -6.9684234
+          ],
+          [
+            110.4291841,
+            -6.9684036
+          ]
+        ]
+      },
+      "id": "way/340401673"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/340401674",
+        "highway": "living_street",
+        "motorcar": "no",
+        "name": "Gang IV"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            110.4295559,
+            -6.9692186
+          ],
+          [
+            110.4293413,
+            -6.9692608
+          ],
+          [
+            110.4290424,
+            -6.9693162
+          ],
+          [
+            110.4290626,
+            -6.9694466
+          ],
+          [
+            110.42907,
+            -6.9694842
+          ]
+        ]
+      },
+      "id": "way/340401674"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/340401675",
+        "highway": "residential",
+        "motorcar": "no",
+        "motorcycle": "yes",
+        "name": "Gang I"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            110.4294763,
+            -6.968881
+          ],
+          [
+            110.4294953,
+            -6.9688757
+          ],
+          [
+            110.4294347,
+            -6.968641
+          ],
+          [
+            110.4293633,
+            -6.9683555
+          ],
+          [
+            110.4292326,
+            -6.9683894
+          ]
+        ]
+      },
+      "id": "way/340401675"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/340404156",
+        "highway": "secondary",
+        "lanes": "1",
+        "motorcycle": "yes",
+        "name": "Jalan K.H. Agus Salim",
+        "oneway": "yes",
+        "smoothness": "good",
+        "source": "HOT_InAWARESurvey_2018",
+        "surface": "concrete",
+        "width": "5"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            110.4308374,
+            -6.9699671
+          ],
+          [
+            110.4306613,
+            -6.9700141
+          ],
+          [
+            110.4305469,
+            -6.9700581
+          ],
+          [
+            110.4292913,
+            -6.9704277
+          ],
+          [
+            110.4288428,
+            -6.9705671
+          ],
+          [
+            110.4284133,
+            -6.9706884
+          ],
+          [
+            110.4278742,
+            -6.9708574
+          ],
+          [
+            110.4274548,
+            -6.9709775
+          ],
+          [
+            110.427095,
+            -6.9710774
+          ],
+          [
+            110.4269134,
+            -6.9711271
+          ]
+        ]
+      },
+      "id": "way/340404156"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/340404163",
+        "highway": "secondary",
+        "lanes": "1",
+        "motorcycle": "yes",
+        "name": "Jalan KH Agus Salim",
+        "oneway": "yes",
+        "smoothness": "good",
+        "source": "HOT_InAWARESurvey_2018",
+        "surface": "concrete",
+        "width": "5"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            110.4256085,
+            -6.971367
+          ],
+          [
+            110.4257049,
+            -6.9713507
+          ],
+          [
+            110.4257653,
+            -6.9713343
+          ],
+          [
+            110.4265002,
+            -6.9711343
+          ],
+          [
+            110.4265391,
+            -6.9711236
+          ],
+          [
+            110.4270658,
+            -6.9709786
+          ],
+          [
+            110.4273022,
+            -6.970914
+          ],
+          [
+            110.4278646,
+            -6.9707679
+          ],
+          [
+            110.4287717,
+            -6.9705026
+          ],
+          [
+            110.4304138,
+            -6.9699698
+          ],
+          [
+            110.4304497,
+            -6.969928
+          ],
+          [
+            110.4304725,
+            -6.9698758
+          ],
+          [
+            110.4304892,
+            -6.9697202
+          ]
+        ]
+      },
+      "id": "way/340404163"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/340412391",
+        "highway": "service",
+        "lanes": "1",
+        "motorcycle": "yes",
+        "name": "Jalan Kepodang",
+        "oneway": "no",
+        "smoothness": "good",
+        "source": "HOT_InAWARESurvey_2018",
+        "surface": "paving_stones",
+        "width": "6"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            110.4285975,
+            -6.9692092
+          ],
+          [
+            110.428099,
+            -6.9692825
+          ],
+          [
+            110.4277442,
+            -6.9692951
+          ],
+          [
+            110.427599,
+            -6.9692955
+          ]
+        ]
+      },
+      "id": "way/340412391"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/340418248",
+        "highway": "residential",
+        "motorcar": "no",
+        "motorcycle": "yes"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            110.4291033,
+            -6.9681292
+          ],
+          [
+            110.4291237,
+            -6.9681923
+          ],
+          [
+            110.4291729,
+            -6.9683659
+          ],
+          [
+            110.4291841,
+            -6.9684036
+          ],
+          [
+            110.4292326,
+            -6.9683894
+          ],
+          [
+            110.4293725,
+            -6.9689053
+          ]
+        ]
+      },
+      "id": "way/340418248"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/340579781",
+        "highway": "residential",
+        "lanes": "1",
+        "motorcycle": "yes",
+        "name": "Jalan Purwodinatan",
+        "oneway": "no",
+        "smoothness": "good",
+        "source": "HOT_InAWARESurvey_2018",
+        "surface": "paving_stones",
+        "width": "3"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            110.4271233,
+            -6.9737613
+          ],
+          [
+            110.4270723,
+            -6.9736217
+          ],
+          [
+            110.4270467,
+            -6.9735311
+          ],
+          [
+            110.4270216,
+            -6.9734038
+          ],
+          [
+            110.4269647,
+            -6.9731431
+          ],
+          [
+            110.4269361,
+            -6.9730723
+          ],
+          [
+            110.4269052,
+            -6.9729723
+          ],
+          [
+            110.426876,
+            -6.9729028
+          ],
+          [
+            110.426851,
+            -6.9728474
+          ],
+          [
+            110.426834,
+            -6.9728182
+          ],
+          [
+            110.4266854,
+            -6.9726039
+          ],
+          [
+            110.4266234,
+            -6.9725176
+          ],
+          [
+            110.4264402,
+            -6.9723638
+          ],
+          [
+            110.4264227,
+            -6.972349
+          ],
+          [
+            110.4261766,
+            -6.9721931
+          ],
+          [
+            110.4258803,
+            -6.9720005
+          ],
+          [
+            110.4257307,
+            -6.9718452
+          ],
+          [
+            110.4255897,
+            -6.9714634
+          ]
+        ]
+      },
+      "id": "way/340579781"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/340582597",
+        "highway": "residential",
+        "lanes": "1",
+        "motorcycle": "yes",
+        "name": "Jalan Kampung Jurnatan",
+        "oneway": "no",
+        "smoothness": "good",
+        "source": "HOT_InAWARESurvey_2018",
+        "surface": "paving_stones",
+        "width": "1.5"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            110.4259344,
+            -6.9713877
+          ],
+          [
+            110.42597,
+            -6.9715408
+          ],
+          [
+            110.4260465,
+            -6.9718683
+          ],
+          [
+            110.4261268,
+            -6.9718557
+          ],
+          [
+            110.4261721,
+            -6.9720635
+          ],
+          [
+            110.4261766,
+            -6.9721931
+          ]
+        ]
+      },
+      "id": "way/340582597"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/340582598",
+        "highway": "residential",
+        "lanes": "1",
+        "motorcycle": "yes",
+        "name": "Jalan Purwodinatan",
+        "oneway": "no",
+        "smoothness": "good",
+        "source": "HOT_InAWARESurvey_2018",
+        "surface": "paving_stones",
+        "width": "3"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            110.4263882,
+            -6.9712688
+          ],
+          [
+            110.4264274,
+            -6.9714132
+          ],
+          [
+            110.4265031,
+            -6.9718927
+          ]
+        ]
+      },
+      "id": "way/340582598"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/340582599",
+        "highway": "living_street",
+        "motorcar": "no",
+        "motorcycle": "yes"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            110.42597,
+            -6.9715408
+          ],
+          [
+            110.4262204,
+            -6.971471
+          ],
+          [
+            110.4264274,
+            -6.9714132
+          ]
+        ]
+      },
+      "id": "way/340582599"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/341995603",
+        "highway": "residential",
+        "lanes": "1",
+        "motorcycle": "yes",
+        "name": "Jalan Bubakan",
+        "note": "Field Survey",
+        "oneway": "yes",
+        "smoothness": "good",
+        "source": "HOT_InAWARESurvey_2018",
+        "surface": "paving_stones",
+        "width": "6"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            110.4279514,
+            -6.9714983
+          ],
+          [
+            110.4285826,
+            -6.9713551
+          ],
+          [
+            110.4290213,
+            -6.9712552
+          ],
+          [
+            110.4294781,
+            -6.9711447
+          ],
+          [
+            110.4299553,
+            -6.9710152
+          ],
+          [
+            110.4307879,
+            -6.9708147
+          ],
+          [
+            110.4308123,
+            -6.9708097
+          ],
+          [
+            110.4309975,
+            -6.9707709
+          ],
+          [
+            110.4310717,
+            -6.9707556
+          ]
+        ]
+      },
+      "id": "way/341995603"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/342881454",
+        "access": "permissive",
+        "highway": "tertiary",
+        "lanes": "1",
+        "motorcycle": "yes",
+        "name": "Jalan Mpu Tantular",
+        "oneway": "no",
+        "smoothness": "good",
+        "source": "HOT_InAWARESurvey_2018",
+        "surface": "paving_stones",
+        "width": "4"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            110.4257049,
+            -6.9713507
+          ],
+          [
+            110.4257175,
+            -6.9704051
+          ],
+          [
+            110.4257361,
+            -6.9699021
+          ]
+        ]
+      },
+      "id": "way/342881454"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/342881455",
+        "highway": "service",
+        "lanes": "1",
+        "motorcycle": "yes",
+        "name": "Jalan Kenari",
+        "oneway": "no",
+        "smoothness": "good",
+        "source": "HOT_InAWARESurvey_2018",
+        "surface": "paving_stones",
+        "width": "2.5"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            110.4277281,
+            -6.9699351
+          ],
+          [
+            110.4272107,
+            -6.9700347
+          ],
+          [
+            110.4269244,
+            -6.9700898
+          ],
+          [
+            110.4261793,
+            -6.9702891
+          ],
+          [
+            110.4259795,
+            -6.9703446
+          ],
+          [
+            110.4257175,
+            -6.9704051
+          ]
+        ]
+      },
+      "id": "way/342881455"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/342882321",
+        "highway": "service",
+        "lanes": "1",
+        "motorcar": "no",
+        "motorcycle": "yes",
+        "name": "Jalan Kenari 1",
+        "width": "4"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            110.4270658,
+            -6.9709786
+          ],
+          [
+            110.4269244,
+            -6.9700898
+          ]
+        ]
+      },
+      "id": "way/342882321"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/516578220",
+        "bridge": "yes",
+        "highway": "secondary",
+        "layer": "1",
+        "name": "Jalan KH. Agus Salim",
+        "oneway": "yes",
+        "surface": "concrete",
+        "width": "5"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            110.4254185,
+            -6.9713635
+          ],
+          [
+            110.425473,
+            -6.9713654
+          ],
+          [
+            110.4256085,
+            -6.971367
+          ]
+        ]
+      },
+      "id": "way/516578220"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/516578221",
+        "highway": "secondary",
+        "lanes": "1",
+        "motorcycle": "yes",
+        "name": "Jalan KH Agus Salim",
+        "oneway": "yes",
+        "smoothness": "good",
+        "source": "HOT_InAWARESurvey_2018",
+        "surface": "concrete",
+        "width": "5"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            110.4228714,
+            -6.9710511
+          ],
+          [
+            110.4229262,
+            -6.9710891
+          ],
+          [
+            110.4229758,
+            -6.9711177
+          ],
+          [
+            110.4230442,
+            -6.9711477
+          ],
+          [
+            110.4230999,
+            -6.9711711
+          ],
+          [
+            110.4232936,
+            -6.9712129
+          ],
+          [
+            110.4243957,
+            -6.9713001
+          ],
+          [
+            110.4253765,
+            -6.9713605
+          ],
+          [
+            110.4254185,
+            -6.9713635
+          ]
+        ]
+      },
+      "id": "way/516578221"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/518615090",
+        "highway": "footway",
+        "surface": "paving_stones"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            110.4275201,
+            -6.9679515
+          ],
+          [
+            110.4275838,
+            -6.9680183
+          ],
+          [
+            110.4276465,
+            -6.9680672
+          ],
+          [
+            110.4276626,
+            -6.9681235
+          ],
+          [
+            110.4276589,
+            -6.9681827
+          ],
+          [
+            110.4276425,
+            -6.9682393
+          ],
+          [
+            110.4276375,
+            -6.9683156
+          ]
+        ]
+      },
+      "id": "way/518615090"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/518621832",
+        "highway": "tertiary",
+        "lanes": "1",
+        "motorcycle": "yes",
+        "name": "Jalan Sendowo",
+        "oneway": "no",
+        "smoothness": "good",
+        "source": "HOT_InAWARESurvey_2018",
+        "surface": "paving_stones",
+        "width": "7"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            110.4257021,
+            -6.9695379
+          ],
+          [
+            110.4252576,
+            -6.9687524
+          ]
+        ]
+      },
+      "id": "way/518621832"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/518621833",
+        "highway": "service",
+        "surface": "paved"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            110.4265189,
+            -6.9685441
+          ],
+          [
+            110.4265834,
+            -6.9693066
+          ],
+          [
+            110.4265838,
+            -6.96935
+          ]
+        ]
+      },
+      "id": "way/518621833"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/518699606",
+        "highway": "residential",
+        "lanes": "1",
+        "name": "Jalan Nuri",
+        "oneway": "no",
+        "smoothness": "good",
+        "source": "HOT_InAWARESurvey_2018",
+        "surface": "paving_stones",
+        "width": "5"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            110.4270405,
+            -6.9674035
+          ],
+          [
+            110.4270392,
+            -6.9672925
+          ],
+          [
+            110.4270593,
+            -6.9672366
+          ],
+          [
+            110.4272821,
+            -6.9665499
+          ],
+          [
+            110.4273829,
+            -6.9662555
+          ],
+          [
+            110.4274124,
+            -6.9661233
+          ]
+        ]
+      },
+      "id": "way/518699606"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/518699635",
+        "highway": "residential"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            110.4280183,
+            -6.9676407
+          ],
+          [
+            110.4282188,
+            -6.9675947
+          ],
+          [
+            110.4282618,
+            -6.967604
+          ],
+          [
+            110.4282872,
+            -6.9676373
+          ],
+          [
+            110.4283618,
+            -6.9683641
+          ]
+        ]
+      },
+      "id": "way/518699635"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/518699638",
+        "highway": "service",
+        "lanes": "1",
+        "motorcycle": "yes",
+        "name": "Jalan Kepodang",
+        "oneway": "no",
+        "smoothness": "good",
+        "source": "HOT_InAWARESurvey_2018",
+        "surface": "paving_stones",
+        "width": "6"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            110.427599,
+            -6.9692955
+          ],
+          [
+            110.4267498,
+            -6.9693194
+          ],
+          [
+            110.4265838,
+            -6.96935
+          ],
+          [
+            110.4263466,
+            -6.9693998
+          ],
+          [
+            110.4259382,
+            -6.9694834
+          ],
+          [
+            110.4257021,
+            -6.9695379
+          ]
+        ]
+      },
+      "id": "way/518699638"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/519460299",
+        "highway": "living_street",
+        "motorcycle": "yes"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            110.4265838,
+            -6.96935
+          ],
+          [
+            110.4265907,
+            -6.9697912
+          ]
+        ]
+      },
+      "id": "way/519460299"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/548111453",
+        "highway": "service"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            110.4292913,
+            -6.9704277
+          ],
+          [
+            110.429321,
+            -6.9705384
+          ],
+          [
+            110.4294781,
+            -6.9711447
+          ]
+        ]
+      },
+      "id": "way/548111453"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/548791348",
+        "highway": "service"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            110.4288428,
+            -6.9705671
+          ],
+          [
+            110.4288696,
+            -6.9706537
+          ],
+          [
+            110.4290049,
+            -6.9711889
+          ],
+          [
+            110.4290098,
+            -6.9712074
+          ],
+          [
+            110.4290213,
+            -6.9712552
+          ]
+        ]
+      },
+      "id": "way/548791348"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/549105253",
+        "highway": "service"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            110.4284133,
+            -6.9706884
+          ],
+          [
+            110.4284885,
+            -6.9710491
+          ],
+          [
+            110.4285826,
+            -6.9713551
+          ]
+        ]
+      },
+      "id": "way/549105253"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/561490626",
+        "highway": "secondary",
+        "lanes": "1",
+        "motorcycle": "yes",
+        "name": "Jalan Kolonel Sugiono",
+        "oneway": "yes",
+        "smoothness": "intermediate",
+        "source": "HOT_InAWARESurvey_2018",
+        "surface": "concrete",
+        "width": "6"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            110.4231374,
+            -6.9681578
+          ],
+          [
+            110.4231792,
+            -6.9681711
+          ],
+          [
+            110.4233471,
+            -6.9682275
+          ],
+          [
+            110.423728,
+            -6.9683571
+          ],
+          [
+            110.4246599,
+            -6.9687581
+          ],
+          [
+            110.4246857,
+            -6.9687948
+          ],
+          [
+            110.4246888,
+            -6.9688582
+          ]
+        ]
+      },
+      "id": "way/561490626"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/565255881",
+        "highway": "primary",
+        "lanes": "2",
+        "motorcycle": "yes",
+        "name": "Jalan Pemuda",
+        "oneway": "yes",
+        "smoothness": "good",
+        "source": "HOT_InAWARESurvey_2018",
+        "surface": "asphalt",
+        "width": "10"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            110.4238549,
+            -6.9699376
+          ],
+          [
+            110.4237701,
+            -6.9700265
+          ],
+          [
+            110.4236998,
+            -6.9700979
+          ],
+          [
+            110.4235605,
+            -6.9702358
+          ],
+          [
+            110.4232411,
+            -6.9705995
+          ],
+          [
+            110.4232246,
+            -6.9706104
+          ]
+        ]
+      },
+      "id": "way/565255881"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/565255883",
+        "highway": "residential",
+        "lanes": "1",
+        "motorcycle": "yes",
+        "name": "Jalan Arief Rahman Hakim",
+        "oneway": "no",
+        "smoothness": "good",
+        "source": "HOT_InAWARESurvey_2018",
+        "surface": "paving_stones",
+        "width": "6"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            110.424386,
+            -6.9713898
+          ],
+          [
+            110.4243916,
+            -6.9713364
+          ],
+          [
+            110.4243957,
+            -6.9713001
+          ],
+          [
+            110.4244148,
+            -6.9710205
+          ],
+          [
+            110.4244101,
+            -6.970711
+          ],
+          [
+            110.4242478,
+            -6.9703889
+          ],
+          [
+            110.42404,
+            -6.9701559
+          ]
+        ]
+      },
+      "id": "way/565255883"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/565255885",
+        "highway": "living_street",
+        "lanes": "1",
+        "motorcycle": "yes",
+        "name": "Jalan Inspeksi Kyai Damar",
+        "oneway": "no",
+        "smoothness": "good",
+        "source": "HOT_InAWARESurvey_2018",
+        "surface": "paving_stones",
+        "width": "4"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            110.4253784,
+            -6.971454
+          ],
+          [
+            110.4253939,
+            -6.9714863
+          ],
+          [
+            110.4254267,
+            -6.9715544
+          ],
+          [
+            110.4254749,
+            -6.9716655
+          ],
+          [
+            110.4255427,
+            -6.9718319
+          ],
+          [
+            110.4255769,
+            -6.9719157
+          ],
+          [
+            110.4256379,
+            -6.971995
+          ],
+          [
+            110.4257137,
+            -6.9720755
+          ],
+          [
+            110.425829,
+            -6.972164
+          ],
+          [
+            110.4259571,
+            -6.9722559
+          ],
+          [
+            110.4260517,
+            -6.9723157
+          ],
+          [
+            110.4261081,
+            -6.972348
+          ],
+          [
+            110.4261556,
+            -6.972377
+          ],
+          [
+            110.4263359,
+            -6.9725188
+          ],
+          [
+            110.4264627,
+            -6.9726219
+          ],
+          [
+            110.4265686,
+            -6.9727185
+          ],
+          [
+            110.4265901,
+            -6.9727421
+          ],
+          [
+            110.4266417,
+            -6.9728239
+          ],
+          [
+            110.4266475,
+            -6.9728327
+          ],
+          [
+            110.4267027,
+            -6.9729165
+          ],
+          [
+            110.4267269,
+            -6.9729804
+          ],
+          [
+            110.426754,
+            -6.9730519
+          ],
+          [
+            110.4267959,
+            -6.9731837
+          ],
+          [
+            110.4268268,
+            -6.9733298
+          ],
+          [
+            110.4268291,
+            -6.9733391
+          ],
+          [
+            110.4268553,
+            -6.9734439
+          ],
+          [
+            110.4269005,
+            -6.9737035
+          ],
+          [
+            110.426929,
+            -6.9738108
+          ]
+        ]
+      },
+      "id": "way/565255885"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/565255889",
+        "highway": "residential",
+        "lanes": "1",
+        "motorcycle": "yes",
+        "name": "Jalan Inspeksi",
+        "oneway": "no",
+        "smoothness": "good",
+        "source": "HOT_InAWARESurvey_2018",
+        "surface": "paving_stones",
+        "width": "4"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            110.4249354,
+            -6.9689408
+          ],
+          [
+            110.4251031,
+            -6.9690723
+          ],
+          [
+            110.4252386,
+            -6.9692441
+          ],
+          [
+            110.4253579,
+            -6.9694369
+          ],
+          [
+            110.4254094,
+            -6.9695795
+          ],
+          [
+            110.4254633,
+            -6.9698082
+          ],
+          [
+            110.425464,
+            -6.9699163
+          ],
+          [
+            110.4254654,
+            -6.9701528
+          ],
+          [
+            110.4254612,
+            -6.9704352
+          ],
+          [
+            110.4254361,
+            -6.9707975
+          ],
+          [
+            110.4254354,
+            -6.970906
+          ],
+          [
+            110.4253765,
+            -6.9713605
+          ]
+        ]
+      },
+      "id": "way/565255889"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/567288634",
+        "highway": "tertiary",
+        "lanes": "1",
+        "motorcycle": "yes",
+        "name": "Jalan Pekojan",
+        "oneway": "yes",
+        "smoothness": "good",
+        "source": "HOT_InAWARESurvey_2018",
+        "surface": "asphalt",
+        "width": "5"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            110.4278742,
+            -6.9708574
+          ],
+          [
+            110.4279057,
+            -6.9711949
+          ],
+          [
+            110.4279514,
+            -6.9714983
+          ],
+          [
+            110.4279454,
+            -6.9715763
+          ],
+          [
+            110.4279932,
+            -6.9719274
+          ],
+          [
+            110.4280753,
+            -6.9723221
+          ]
+        ]
+      },
+      "id": "way/567288634"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/568039581",
+        "highway": "tertiary",
+        "lanes": "1",
+        "motorcycle": "yes",
+        "name": "Jalan Sendowo",
+        "oneway": "no",
+        "smoothness": "good",
+        "source": "HOT_InAWARESurvey_2018",
+        "surface": "paving_stones",
+        "width": "5"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            110.4257361,
+            -6.9699021
+          ],
+          [
+            110.4257524,
+            -6.9697447
+          ],
+          [
+            110.4257021,
+            -6.9695379
+          ]
+        ]
+      },
+      "id": "way/568039581"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/568070957",
+        "highway": "tertiary",
+        "lanes": "1",
+        "motorcycle": "yes",
+        "name": "Jalan Empu Tantular",
+        "oneway": "no",
+        "smoothness": "good",
+        "source": "HOT_InAWARESurvey_2018",
+        "surface": "asphalt",
+        "width": "8"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            110.4251761,
+            -6.9663997
+          ],
+          [
+            110.4252014,
+            -6.9660953
+          ],
+          [
+            110.4252055,
+            -6.9660473
+          ],
+          [
+            110.4252106,
+            -6.9659079
+          ]
+        ]
+      },
+      "id": "way/568070957"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/568070959",
+        "highway": "unclassified",
+        "lanes": "1",
+        "motorcycle": "yes",
+        "name": "Jalan Sleko",
+        "oneway": "no",
+        "smoothness": "good",
+        "source": "HOT_InAWARESurvey_2018",
+        "surface": "paving_stones",
+        "width": "4"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            110.4231231,
+            -6.9674946
+          ],
+          [
+            110.423088,
+            -6.9674732
+          ]
+        ]
+      },
+      "id": "way/568070959"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/568070960",
+        "highway": "unclassified",
+        "lanes": "1",
+        "motorcycle": "yes",
+        "name": "Jalan Sleko",
+        "oneway": "no",
+        "smoothness": "good",
+        "source": "HOT_InAWARESurvey_2018",
+        "surface": "paving_stones",
+        "width": "4"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            110.4251045,
+            -6.9681828
+          ],
+          [
+            110.4248986,
+            -6.9681362
+          ],
+          [
+            110.4247618,
+            -6.9680971
+          ],
+          [
+            110.4244593,
+            -6.967992
+          ],
+          [
+            110.4244189,
+            -6.967978
+          ],
+          [
+            110.4243509,
+            -6.9679543
+          ],
+          [
+            110.4242938,
+            -6.9679345
+          ],
+          [
+            110.4240111,
+            -6.9678363
+          ],
+          [
+            110.4238438,
+            -6.9677821
+          ],
+          [
+            110.4231966,
+            -6.9675367
+          ],
+          [
+            110.4231231,
+            -6.9674946
+          ]
+        ]
+      },
+      "id": "way/568070960"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/568070977",
+        "highway": "living_street",
+        "lanes": "1",
+        "motorcycle": "yes",
+        "oneway": "no",
+        "smoothness": "good",
+        "source": "HOT_InAWARESurvey_2018",
+        "surface": "paving_stones",
+        "width": "1"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            110.4227458,
+            -6.9660978
+          ],
+          [
+            110.4230608,
+            -6.9661718
+          ]
+        ]
+      },
+      "id": "way/568070977"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/568070981",
+        "highway": "primary",
+        "oneway": "yes",
+        "surface": "asphalt"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            110.4251441,
+            -6.968525
+          ],
+          [
+            110.4251045,
+            -6.9681828
+          ]
+        ]
+      },
+      "id": "way/568070981"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/569180549",
+        "highway": "service",
+        "lanes": "1",
+        "motorcycle": "yes",
+        "name": "Jalan Komplek Pertokoan Jurnatan",
+        "oneway": "no",
+        "smoothness": "good",
+        "source": "HOT_InAWARESurvey_2018",
+        "surface": "paving_stones",
+        "width": "6"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            110.4286491,
+            -6.9700631
+          ],
+          [
+            110.4277894,
+            -6.9702953
+          ]
+        ]
+      },
+      "id": "way/569180549"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/569180550",
+        "highway": "service",
+        "lanes": "1",
+        "motorcycle": "yes",
+        "name": "Jalan Komplek Pertokoan Jurnatan",
+        "oneway": "no",
+        "smoothness": "good",
+        "source": "HOT_InAWARESurvey_2018",
+        "surface": "paving_stones",
+        "width": "4"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            110.4286069,
+            -6.9698813
+          ],
+          [
+            110.4285944,
+            -6.9698277
+          ],
+          [
+            110.4285554,
+            -6.9696333
+          ],
+          [
+            110.4285465,
+            -6.9695937
+          ]
+        ]
+      },
+      "id": "way/569180550"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/569180552",
+        "highway": "residential",
+        "lanes": "1",
+        "motorcycle": "yes",
+        "name": "Jalan Sendowo",
+        "note": "field survey",
+        "oneway": "yes",
+        "smoothness": "good",
+        "source": "HOT_InAWARESurvey_2018",
+        "surface": "paving_stones",
+        "width": "6"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            110.4305164,
+            -6.9691239
+          ],
+          [
+            110.4304804,
+            -6.9691597
+          ],
+          [
+            110.4304383,
+            -6.9691873
+          ],
+          [
+            110.4303871,
+            -6.9692197
+          ],
+          [
+            110.4303226,
+            -6.9692409
+          ],
+          [
+            110.4295879,
+            -6.9693861
+          ],
+          [
+            110.42907,
+            -6.9694842
+          ],
+          [
+            110.4285465,
+            -6.9695937
+          ]
+        ]
+      },
+      "id": "way/569180552"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/570156042",
+        "highway": "living_street",
+        "motorcar": "no",
+        "motorcycle": "yes"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            110.4266988,
+            -6.9673153
+          ],
+          [
+            110.4267188,
+            -6.9673145
+          ],
+          [
+            110.4270152,
+            -6.9672945
+          ],
+          [
+            110.4270392,
+            -6.9672925
+          ]
+        ]
+      },
+      "id": "way/570156042"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/571518852",
+        "access": "destination",
+        "highway": "service",
+        "motorcycle": "no",
+        "oneway": "no"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            110.4224749,
+            -6.9703183
+          ],
+          [
+            110.4225326,
+            -6.9703003
+          ],
+          [
+            110.4227907,
+            -6.9702085
+          ],
+          [
+            110.4228082,
+            -6.9702098
+          ],
+          [
+            110.4228202,
+            -6.9702145
+          ],
+          [
+            110.4231671,
+            -6.970551
+          ],
+          [
+            110.4232411,
+            -6.9705995
+          ]
+        ]
+      },
+      "id": "way/571518852"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/577000444",
+        "highway": "service",
+        "oneway": "yes"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            110.4232661,
+            -6.9689911
+          ],
+          [
+            110.4231468,
+            -6.9690191
+          ],
+          [
+            110.4229711,
+            -6.9690617
+          ],
+          [
+            110.4229523,
+            -6.9691069
+          ],
+          [
+            110.4229537,
+            -6.9691682
+          ]
+        ]
+      },
+      "id": "way/577000444"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/668175309",
+        "highway": "service",
+        "oneway": "yes"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            110.4232594,
+            -6.9708008
+          ],
+          [
+            110.4232286,
+            -6.9708361
+          ],
+          [
+            110.4232058,
+            -6.9710499
+          ],
+          [
+            110.4232132,
+            -6.9710844
+          ],
+          [
+            110.4232346,
+            -6.971104
+          ],
+          [
+            110.423302,
+            -6.9711124
+          ]
+        ]
+      },
+      "id": "way/668175309"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/668175310",
+        "highway": "service"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            110.4237707,
+            -6.9708618
+          ],
+          [
+            110.4237885,
+            -6.9709436
+          ],
+          [
+            110.4237949,
+            -6.9709613
+          ],
+          [
+            110.423812,
+            -6.9709686
+          ],
+          [
+            110.4241714,
+            -6.9709972
+          ],
+          [
+            110.4241929,
+            -6.9709949
+          ],
+          [
+            110.4242076,
+            -6.9709852
+          ],
+          [
+            110.4242247,
+            -6.970936
+          ],
+          [
+            110.4242224,
+            -6.9709187
+          ],
+          [
+            110.4242137,
+            -6.970907
+          ],
+          [
+            110.4241942,
+            -6.9708994
+          ]
+        ]
+      },
+      "id": "way/668175310"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/668175311",
+        "highway": "service"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            110.4233272,
+            -6.9707936
+          ],
+          [
+            110.4236269,
+            -6.9708242
+          ],
+          [
+            110.4236685,
+            -6.9708535
+          ],
+          [
+            110.4237707,
+            -6.9708618
+          ],
+          [
+            110.4241942,
+            -6.9708994
+          ]
+        ]
+      },
+      "id": "way/668175311"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/668178542",
+        "highway": "service"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            110.4247775,
+            -6.9691913
+          ],
+          [
+            110.4243265,
+            -6.9696436
+          ],
+          [
+            110.4239235,
+            -6.9700186
+          ],
+          [
+            110.4238194,
+            -6.9701183
+          ]
+        ]
+      },
+      "id": "way/668178542"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/668178543",
+        "highway": "service"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            110.4247182,
+            -6.9691353
+          ],
+          [
+            110.4247775,
+            -6.9691913
+          ],
+          [
+            110.4248684,
+            -6.9692771
+          ],
+          [
+            110.4250303,
+            -6.9694299
+          ]
+        ]
+      },
+      "id": "way/668178543"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/668178544",
+        "highway": "service"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            110.4241107,
+            -6.9691755
+          ],
+          [
+            110.4239219,
+            -6.9692826
+          ]
+        ]
+      },
+      "id": "way/668178544"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/668178545",
+        "highway": "service"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            110.4241982,
+            -6.9693146
+          ],
+          [
+            110.4241721,
+            -6.9692846
+          ],
+          [
+            110.4241107,
+            -6.9691755
+          ],
+          [
+            110.4240346,
+            -6.9690084
+          ],
+          [
+            110.4239448,
+            -6.9687915
+          ]
+        ]
+      },
+      "id": "way/668178545"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/668178546",
+        "highway": "service"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            110.4242558,
+            -6.9695769
+          ],
+          [
+            110.4243129,
+            -6.9696304
+          ],
+          [
+            110.4243265,
+            -6.9696436
+          ],
+          [
+            110.4243779,
+            -6.9696943
+          ],
+          [
+            110.4245506,
+            -6.9698534
+          ],
+          [
+            110.4248058,
+            -6.9701133
+          ]
+        ]
+      },
+      "id": "way/668178546"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/668178547",
+        "highway": "service"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            110.4242478,
+            -6.9703889
+          ],
+          [
+            110.4243373,
+            -6.9703496
+          ],
+          [
+            110.4244061,
+            -6.970317
+          ],
+          [
+            110.424512,
+            -6.9702864
+          ],
+          [
+            110.4246931,
+            -6.9703077
+          ],
+          [
+            110.4248768,
+            -6.9703196
+          ],
+          [
+            110.424968,
+            -6.9703263
+          ],
+          [
+            110.4249787,
+            -6.9703702
+          ],
+          [
+            110.4249868,
+            -6.9704115
+          ],
+          [
+            110.4249935,
+            -6.9704821
+          ],
+          [
+            110.4249975,
+            -6.9705739
+          ]
+        ]
+      },
+      "id": "way/668178547"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/668178557",
+        "highway": "service"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            110.4272821,
+            -6.9665499
+          ],
+          [
+            110.4273766,
+            -6.966575
+          ],
+          [
+            110.4274383,
+            -6.9665963
+          ],
+          [
+            110.4275201,
+            -6.9666243
+          ],
+          [
+            110.4275396,
+            -6.9666449
+          ],
+          [
+            110.4275509,
+            -6.9666669
+          ],
+          [
+            110.4275684,
+            -6.9667334
+          ],
+          [
+            110.4276864,
+            -6.9671434
+          ],
+          [
+            110.4277106,
+            -6.967204
+          ],
+          [
+            110.4277267,
+            -6.9672279
+          ],
+          [
+            110.4277548,
+            -6.9672559
+          ],
+          [
+            110.4277709,
+            -6.9672732
+          ],
+          [
+            110.42778,
+            -6.9672892
+          ],
+          [
+            110.4277857,
+            -6.9673198
+          ],
+          [
+            110.4278004,
+            -6.9673781
+          ]
+        ]
+      },
+      "id": "way/668178557"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/668178558",
+        "highway": "service"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            110.4251237,
+            -6.9672063
+          ],
+          [
+            110.4247051,
+            -6.9671927
+          ]
+        ]
+      },
+      "id": "way/668178558"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/668178559",
+        "highway": "service"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            110.425145,
+            -6.9668174
+          ],
+          [
+            110.4249754,
+            -6.9668119
+          ],
+          [
+            110.4248373,
+            -6.9668112
+          ],
+          [
+            110.4245945,
+            -6.966802
+          ]
+        ]
+      },
+      "id": "way/668178559"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/778752114",
+        "highway": "service"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            110.424968,
+            -6.9703263
+          ],
+          [
+            110.4251826,
+            -6.970329
+          ]
+        ]
+      },
+      "id": "way/778752114"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/778756506",
+        "highway": "residential",
+        "oneway": "yes"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            110.42404,
+            -6.9701559
+          ],
+          [
+            110.4238194,
+            -6.9701183
+          ],
+          [
+            110.4236998,
+            -6.9700979
+          ]
+        ]
+      },
+      "id": "way/778756506"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/778765760",
+        "access": "private",
+        "highway": "service"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            110.4275519,
+            -6.971636
+          ],
+          [
+            110.4276345,
+            -6.9716238
+          ],
+          [
+            110.4275677,
+            -6.9712104
+          ],
+          [
+            110.4275332,
+            -6.9710376
+          ]
+        ]
+      },
+      "id": "way/778765760"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/780425730",
+        "highway": "unclassified",
+        "surface": "paving_stones"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            110.4273808,
+            -6.9659987
+          ],
+          [
+            110.4275724,
+            -6.9660359
+          ],
+          [
+            110.4276234,
+            -6.9660425
+          ],
+          [
+            110.4276784,
+            -6.9660359
+          ],
+          [
+            110.4277736,
+            -6.9660119
+          ],
+          [
+            110.4279144,
+            -6.96596
+          ],
+          [
+            110.4280338,
+            -6.9658961
+          ],
+          [
+            110.4283798,
+            -6.9656951
+          ],
+          [
+            110.4288183,
+            -6.9654248
+          ],
+          [
+            110.4291291,
+            -6.9652264
+          ]
+        ]
+      },
+      "id": "way/780425730"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/782006248",
+        "highway": "primary_link",
+        "oneway": "yes"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            110.4230657,
+            -6.9708561
+          ],
+          [
+            110.4230455,
+            -6.970936
+          ],
+          [
+            110.4230502,
+            -6.9710165
+          ],
+          [
+            110.423063,
+            -6.9710857
+          ],
+          [
+            110.4230999,
+            -6.9711711
+          ]
+        ]
+      },
+      "id": "way/782006248"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/782870592",
+        "access": "private",
+        "highway": "service"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            110.4237701,
+            -6.9700265
+          ],
+          [
+            110.4237217,
+            -6.9699808
+          ],
+          [
+            110.4236437,
+            -6.9698937
+          ],
+          [
+            110.4236095,
+            -6.9698664
+          ],
+          [
+            110.4235793,
+            -6.9698471
+          ],
+          [
+            110.4234593,
+            -6.9697765
+          ],
+          [
+            110.4234499,
+            -6.9697652
+          ],
+          [
+            110.4234033,
+            -6.9697029
+          ],
+          [
+            110.4233905,
+            -6.9696857
+          ]
+        ]
+      },
+      "id": "way/782870592"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/792378273",
+        "access": "no",
+        "highway": "residential",
+        "name": "Jalan Nuri"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            110.4273049,
+            -6.9684373
+          ],
+          [
+            110.4273174,
+            -6.9683814
+          ]
+        ]
+      },
+      "id": "way/792378273"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/814458156",
+        "highway": "primary",
+        "lanes": "1",
+        "motorcycle": "yes",
+        "name": "Jalan Pemuda",
+        "oneway": "yes",
+        "smoothness": "good",
+        "surface": "asphalt",
+        "width": "10"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            110.4232246,
+            -6.9706104
+          ],
+          [
+            110.4232255,
+            -6.9707008
+          ],
+          [
+            110.4230657,
+            -6.9708561
+          ],
+          [
+            110.4230197,
+            -6.9709104
+          ],
+          [
+            110.4229855,
+            -6.9709407
+          ],
+          [
+            110.4229486,
+            -6.9709809
+          ],
+          [
+            110.4229138,
+            -6.9710107
+          ]
+        ]
+      },
+      "id": "way/814458156"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/814458157",
+        "highway": "primary",
+        "lanes": "1",
+        "motorcycle": "yes",
+        "name": "Jalan Pemuda",
+        "oneway": "yes",
+        "smoothness": "good",
+        "surface": "asphalt",
+        "width": "10"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            110.4232246,
+            -6.9706104
+          ],
+          [
+            110.4231026,
+            -6.9706438
+          ],
+          [
+            110.4229882,
+            -6.9707519
+          ],
+          [
+            110.4229543,
+            -6.9707806
+          ],
+          [
+            110.4229188,
+            -6.9708182
+          ],
+          [
+            110.4228943,
+            -6.9708441
+          ],
+          [
+            110.4228015,
+            -6.970952
+          ]
+        ]
+      },
+      "id": "way/814458157"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/915382578",
+        "highway": "living_street",
+        "motorcycle": "yes"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            110.4261018,
+            -6.9698539
+          ],
+          [
+            110.4261793,
+            -6.9702891
+          ]
+        ]
+      },
+      "id": "way/915382578"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/927096006",
+        "highway": "service"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            110.4276864,
+            -6.9671434
+          ],
+          [
+            110.4276194,
+            -6.9671687
+          ],
+          [
+            110.4275671,
+            -6.9671927
+          ],
+          [
+            110.4275148,
+            -6.967206
+          ],
+          [
+            110.427449,
+            -6.9672007
+          ],
+          [
+            110.4273981,
+            -6.9671794
+          ],
+          [
+            110.427378,
+            -6.9671447
+          ],
+          [
+            110.427378,
+            -6.9670822
+          ],
+          [
+            110.4273927,
+            -6.966965
+          ],
+          [
+            110.4274276,
+            -6.9668372
+          ]
+        ]
+      },
+      "id": "way/927096006"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/927126472",
+        "highway": "residential"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            110.4294447,
+            -6.9679869
+          ],
+          [
+            110.4296111,
+            -6.9685224
+          ],
+          [
+            110.4295878,
+            -6.9685279
+          ],
+          [
+            110.4295991,
+            -6.9685686
+          ],
+          [
+            110.4294879,
+            -6.9685961
+          ],
+          [
+            110.4294967,
+            -6.9686272
+          ],
+          [
+            110.4294347,
+            -6.968641
+          ]
+        ]
+      },
+      "id": "way/927126472"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/927146236",
+        "highway": "service"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            110.4245417,
+            -6.9658007
+          ],
+          [
+            110.424398,
+            -6.9662089
+          ],
+          [
+            110.4243363,
+            -6.9663753
+          ],
+          [
+            110.424335,
+            -6.9664113
+          ],
+          [
+            110.4243484,
+            -6.9664472
+          ],
+          [
+            110.4243578,
+            -6.9664805
+          ]
+        ]
+      },
+      "id": "way/927146236"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/927146487",
+        "highway": "residential"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            110.4240111,
+            -6.9678363
+          ],
+          [
+            110.4240184,
+            -6.9678178
+          ],
+          [
+            110.4241244,
+            -6.9675494
+          ],
+          [
+            110.4241244,
+            -6.9675188
+          ],
+          [
+            110.4241124,
+            -6.9674855
+          ],
+          [
+            110.4240936,
+            -6.9674602
+          ],
+          [
+            110.4240534,
+            -6.9674416
+          ],
+          [
+            110.4238401,
+            -6.9673963
+          ]
+        ]
+      },
+      "id": "way/927146487"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1028841462",
+        "highway": "service",
+        "motor_vehicle": "private",
+        "service": "parking_aisle"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            110.4289835,
+            -6.9679934
+          ],
+          [
+            110.428948,
+            -6.9670351
+          ]
+        ]
+      },
+      "id": "way/1028841462"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1028841463",
+        "highway": "service",
+        "motor_vehicle": "private"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            110.4297658,
+            -6.9666676
+          ],
+          [
+            110.4296994,
+            -6.9667094
+          ],
+          [
+            110.4291321,
+            -6.9670236
+          ]
+        ]
+      },
+      "id": "way/1028841463"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1028841464",
+        "highway": "service",
+        "motor_vehicle": "private",
+        "service": "parking_aisle"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            110.4291321,
+            -6.9670236
+          ],
+          [
+            110.428948,
+            -6.9670351
+          ],
+          [
+            110.4288129,
+            -6.9670436
+          ],
+          [
+            110.4287774,
+            -6.9670469
+          ],
+          [
+            110.4287372,
+            -6.9670549
+          ],
+          [
+            110.4288083,
+            -6.9679515
+          ],
+          [
+            110.4288277,
+            -6.9679834
+          ],
+          [
+            110.4288686,
+            -6.9680014
+          ],
+          [
+            110.4289835,
+            -6.9679934
+          ],
+          [
+            110.429108,
+            -6.9679781
+          ],
+          [
+            110.4291295,
+            -6.9679554
+          ],
+          [
+            110.4291429,
+            -6.9678955
+          ],
+          [
+            110.4291321,
+            -6.9670236
+          ]
+        ]
+      },
+      "id": "way/1028841464"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1028927122",
+        "highway": "living_street",
+        "surface": "paving_stones"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            110.4271834,
+            -6.9684459
+          ],
+          [
+            110.4272052,
+            -6.9688663
+          ],
+          [
+            110.4270494,
+            -6.968874
+          ]
+        ]
+      },
+      "id": "way/1028927122"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1029188714",
+        "highway": "service",
+        "oneway": "yes"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            110.4277442,
+            -6.9692951
+          ],
+          [
+            110.427752,
+            -6.969709
+          ]
+        ]
+      },
+      "id": "way/1029188714"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1032556687",
+        "access": "private",
+        "highway": "service"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            110.4275677,
+            -6.9712104
+          ],
+          [
+            110.4277266,
+            -6.9711789
+          ],
+          [
+            110.4276916,
+            -6.9710061
+          ],
+          [
+            110.4275332,
+            -6.9710376
+          ]
+        ]
+      },
+      "id": "way/1032556687"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1032556689",
+        "access": "private",
+        "highway": "service",
+        "oneway": "yes"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            110.4275519,
+            -6.971636
+          ],
+          [
+            110.4274699,
+            -6.9710733
+          ],
+          [
+            110.4274548,
+            -6.9709775
+          ]
+        ]
+      },
+      "id": "way/1032556689"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1034985295",
+        "highway": "service"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            110.4265002,
+            -6.9711343
+          ],
+          [
+            110.4265258,
+            -6.9712349
+          ]
+        ]
+      },
+      "id": "way/1034985295"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1034985296",
+        "access": "private",
+        "highway": "service",
+        "oneway": "yes"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            110.4265258,
+            -6.9712349
+          ],
+          [
+            110.4265358,
+            -6.9712877
+          ],
+          [
+            110.4266222,
+            -6.971762
+          ],
+          [
+            110.4270322,
+            -6.9717124
+          ],
+          [
+            110.4271625,
+            -6.9716918
+          ],
+          [
+            110.4275519,
+            -6.971636
+          ]
+        ]
+      },
+      "id": "way/1034985296"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1035056582",
+        "highway": "secondary_link"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            110.427095,
+            -6.9710774
+          ],
+          [
+            110.4270658,
+            -6.9709786
+          ]
+        ]
+      },
+      "id": "way/1035056582"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1042170781",
+        "highway": "service",
+        "oneway": "yes"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            110.4252443,
+            -6.9696394
+          ],
+          [
+            110.4250303,
+            -6.9694299
+          ]
+        ]
+      },
+      "id": "way/1042170781"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1042170782",
+        "highway": "service",
+        "oneway": "yes"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            110.4250303,
+            -6.9694299
+          ],
+          [
+            110.4250954,
+            -6.9693612
+          ],
+          [
+            110.4251477,
+            -6.9693545
+          ],
+          [
+            110.4253221,
+            -6.9695276
+          ],
+          [
+            110.4253422,
+            -6.9695888
+          ],
+          [
+            110.4252979,
+            -6.9696328
+          ],
+          [
+            110.4252443,
+            -6.9696394
+          ]
+        ]
+      },
+      "id": "way/1042170782"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1042170784",
+        "highway": "service"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            110.4262587,
+            -6.9677326
+          ],
+          [
+            110.4264338,
+            -6.9676812
+          ],
+          [
+            110.4265518,
+            -6.9676692
+          ],
+          [
+            110.4265921,
+            -6.9676333
+          ],
+          [
+            110.42659,
+            -6.967561
+          ]
+        ]
+      },
+      "id": "way/1042170784"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1042170785",
+        "highway": "service"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            110.4262247,
+            -6.9676086
+          ],
+          [
+            110.4264338,
+            -6.9675654
+          ],
+          [
+            110.42659,
+            -6.967561
+          ],
+          [
+            110.4266712,
+            -6.9675587
+          ],
+          [
+            110.426749,
+            -6.9675548
+          ]
+        ]
+      },
+      "id": "way/1042170785"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1042194902",
+        "highway": "service",
+        "oneway": "yes"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            110.4229537,
+            -6.9691682
+          ],
+          [
+            110.4232313,
+            -6.9691056
+          ],
+          [
+            110.4232836,
+            -6.9690883
+          ],
+          [
+            110.423297,
+            -6.9690324
+          ],
+          [
+            110.4232661,
+            -6.9689911
+          ]
+        ]
+      },
+      "id": "way/1042194902"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1042809250",
+        "highway": "service"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            110.4230469,
+            -6.9697419
+          ],
+          [
+            110.4230415,
+            -6.969706
+          ],
+          [
+            110.4230006,
+            -6.9694756
+          ],
+          [
+            110.4229537,
+            -6.9691682
+          ]
+        ]
+      },
+      "id": "way/1042809250"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1049494020",
+        "highway": "service",
+        "motor_vehicle": "private"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            110.4287372,
+            -6.9670549
+          ],
+          [
+            110.4286422,
+            -6.9670596
+          ]
+        ]
+      },
+      "id": "way/1049494020"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1049494023",
+        "highway": "service",
+        "motor_vehicle": "private"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            110.4290375,
+            -6.9681523
+          ],
+          [
+            110.4290044,
+            -6.9681049
+          ],
+          [
+            110.4289896,
+            -6.9680416
+          ],
+          [
+            110.4289835,
+            -6.9679934
+          ]
+        ]
+      },
+      "id": "way/1049494023"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1113207186",
+        "highway": "footway",
+        "lanes": "1",
+        "motor_vehicle": "no",
+        "name": "Jalan Suari",
+        "oneway": "no",
+        "smoothness": "good",
+        "source": "HOT_InAWARESurvey_2018",
+        "surface": "paving_stones",
+        "width": "7"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            110.4275295,
+            -6.9684295
+          ],
+          [
+            110.427599,
+            -6.9692955
+          ]
+        ]
+      },
+      "id": "way/1113207186"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1127463895",
+        "highway": "unclassified",
+        "lanes": "1",
+        "motorcycle": "yes",
+        "name": "Jalan Nuri",
+        "oneway": "no",
+        "smoothness": "good",
+        "source": "HOT_InAWARESurvey_2018",
+        "surface": "paving_stones",
+        "width": "5"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            110.4274124,
+            -6.9661233
+          ],
+          [
+            110.4273808,
+            -6.9659987
+          ]
+        ]
+      },
+      "id": "way/1127463895"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1128426356",
+        "highway": "unclassified",
+        "lanes": "1",
+        "motorcycle": "yes",
+        "name": "Jalan Sleko Kalibiru",
+        "oneway": "no",
+        "smoothness": "intermediate",
+        "source": "HOT_InAWARESurvey_2018",
+        "surface": "paving_stones",
+        "width": "3"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            110.423088,
+            -6.9674732
+          ],
+          [
+            110.4229959,
+            -6.9674003
+          ],
+          [
+            110.4229456,
+            -6.9673251
+          ],
+          [
+            110.4229141,
+            -6.9672359
+          ],
+          [
+            110.4228853,
+            -6.9670496
+          ],
+          [
+            110.4228759,
+            -6.9667154
+          ],
+          [
+            110.4228753,
+            -6.966571
+          ],
+          [
+            110.4228749,
+            -6.9664622
+          ],
+          [
+            110.4228715,
+            -6.9664469
+          ],
+          [
+            110.4228316,
+            -6.9663407
+          ]
+        ]
+      },
+      "id": "way/1128426356"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1155756135",
+        "highway": "secondary",
+        "oneway": "yes",
+        "surface": "asphalt"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            110.4252576,
+            -6.9687524
+          ],
+          [
+            110.4251441,
+            -6.968525
+          ]
+        ]
+      },
+      "id": "way/1155756135"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1159094427",
+        "highway": "secondary",
+        "lanes": "1",
+        "motorcycle": "yes",
+        "name": "Jalan K.H. Agus Salim",
+        "oneway": "yes",
+        "smoothness": "good",
+        "source": "HOT_InAWARESurvey_2018",
+        "surface": "concrete",
+        "width": "5"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            110.4253784,
+            -6.971454
+          ],
+          [
+            110.4251507,
+            -6.9714262
+          ]
+        ]
+      },
+      "id": "way/1159094427"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1179880120",
+        "highway": "residential",
+        "lanes": "1",
+        "motorcycle": "yes",
+        "name": "Jalan Arief Rahman Hakim",
+        "oneway": "yes",
+        "smoothness": "good",
+        "surface": "paving_stones",
+        "width": "6"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            110.4238549,
+            -6.9699376
+          ],
+          [
+            110.4239235,
+            -6.9700186
+          ],
+          [
+            110.4239712,
+            -6.9700777
+          ],
+          [
+            110.42404,
+            -6.9701559
+          ]
+        ]
+      },
+      "id": "way/1179880120"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1191958948",
+        "highway": "residential",
+        "lanes": "1",
+        "name": "Jalan Garuda",
+        "oneway": "no",
+        "smoothness": "good",
+        "source": "HOT_InAWARESurvey_2018",
+        "surface": "paving_stones",
+        "width": "6"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            110.4270405,
+            -6.9674035
+          ],
+          [
+            110.4274061,
+            -6.9674057
+          ]
+        ]
+      },
+      "id": "way/1191958948"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1191958949",
+        "highway": "living_street",
+        "motorcar": "no",
+        "motorcycle": "yes",
+        "surface": "paving_stones"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            110.4267256,
+            -6.9674241
+          ],
+          [
+            110.4267423,
+            -6.967423
+          ],
+          [
+            110.42703,
+            -6.9674037
+          ],
+          [
+            110.4270405,
+            -6.9674035
+          ]
+        ]
+      },
+      "id": "way/1191958949"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1201572707",
+        "highway": "living_street",
+        "lanes": "1",
+        "motorcar": "no",
+        "motorcycle": "yes",
+        "name": "Jalan Kedasih",
+        "oneway": "no",
+        "smoothness": "good",
+        "source": "HOT_InAWARESurvey_2018",
+        "surface": "paving_stones",
+        "width": "4"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            110.4287231,
+            -6.968263
+          ],
+          [
+            110.4287226,
+            -6.9682446
+          ],
+          [
+            110.4286512,
+            -6.967199
+          ]
+        ]
+      },
+      "id": "way/1201572707"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1256508697",
+        "highway": "primary",
+        "lanes": "1",
+        "motorcycle": "yes",
+        "name": "Jalan Taman Tawang",
+        "oneway": "yes",
+        "smoothness": "good",
+        "source": "HOT_InAWARESurvey_2018",
+        "surface": "paving_stones",
+        "width": "8"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            110.4251761,
+            -6.9663997
+          ],
+          [
+            110.4252425,
+            -6.9663355
+          ],
+          [
+            110.4253157,
+            -6.9663096
+          ],
+          [
+            110.4253715,
+            -6.9662986
+          ],
+          [
+            110.4257739,
+            -6.9662078
+          ],
+          [
+            110.4262575,
+            -6.9660924
+          ]
+        ]
+      },
+      "id": "way/1256508697"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1259564662",
+        "highway": "secondary_link",
+        "lanes": "1",
+        "motorcycle": "yes",
+        "name": "Jalan Suari",
+        "oneway": "no",
+        "smoothness": "good",
+        "source": "HOT_InAWARESurvey_2018",
+        "width": "7"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            110.4278646,
+            -6.9707679
+          ],
+          [
+            110.4278742,
+            -6.9708574
+          ]
+        ]
+      },
+      "id": "way/1259564662"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1271870771",
+        "highway": "service",
+        "service": "parking_aisle"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            110.4251031,
+            -6.9690723
+          ],
+          [
+            110.4249712,
+            -6.9691811
+          ],
+          [
+            110.4248681,
+            -6.9691046
+          ],
+          [
+            110.4247775,
+            -6.9691913
+          ]
+        ]
+      },
+      "id": "way/1271870771"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1271870772",
+        "highway": "service",
+        "service": "parking_aisle"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            110.4248681,
+            -6.9691046
+          ],
+          [
+            110.4248109,
+            -6.9690412
+          ]
+        ]
+      },
+      "id": "way/1271870772"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1280205938",
+        "highway": "residential",
+        "lanes": "1",
+        "motorcar": "no",
+        "motorcycle": "yes",
+        "name": "Jalan Sendowo",
+        "note": "field survey",
+        "oneway": "no",
+        "smoothness": "good",
+        "surface": "paving_stones",
+        "width": "7"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            110.4258681,
+            -6.9698839
+          ],
+          [
+            110.4257361,
+            -6.9699021
+          ]
+        ]
+      },
+      "id": "way/1280205938"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1280244151",
+        "highway": "service"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            110.424333,
+            -6.9724256
+          ],
+          [
+            110.4243323,
+            -6.9723883
+          ],
+          [
+            110.4243493,
+            -6.9720251
+          ],
+          [
+            110.4243729,
+            -6.9715202
+          ],
+          [
+            110.4243819,
+            -6.9714245
+          ],
+          [
+            110.424386,
+            -6.9713898
+          ]
+        ]
+      },
+      "id": "way/1280244151"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1280362753",
+        "highway": "residential"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            110.4280183,
+            -6.9676407
+          ],
+          [
+            110.4280197,
+            -6.9674622
+          ],
+          [
+            110.428016,
+            -6.967409
+          ],
+          [
+            110.428009,
+            -6.9673464
+          ]
+        ]
+      },
+      "id": "way/1280362753"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1280362754",
+        "highway": "living_street",
+        "lanes": "1",
+        "motorcycle": "yes",
+        "name": "Jalan Branjangan",
+        "oneway": "yes",
+        "smoothness": "good",
+        "surface": "paving_stones",
+        "width": "6"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            110.4257739,
+            -6.9662078
+          ],
+          [
+            110.4259261,
+            -6.9667144
+          ]
+        ]
+      },
+      "id": "way/1280362754"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1287608775",
+        "highway": "service",
+        "lanes": "1",
+        "motorcycle": "yes",
+        "name": "Jalan Suari",
+        "oneway": "yes",
+        "smoothness": "good",
+        "source": "HOT_InAWARESurvey_2018",
+        "surface": "paving_stones",
+        "width": "7"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            110.42761,
+            -6.9697209
+          ],
+          [
+            110.427599,
+            -6.9692955
+          ]
+        ]
+      },
+      "id": "way/1287608775"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1302466477",
+        "highway": "secondary",
+        "lanes": "1",
+        "motorcycle": "yes",
+        "name": "Jalan K.H. Agus Salim",
+        "oneway": "yes",
+        "smoothness": "good",
+        "source": "HOT_InAWARESurvey_2018",
+        "surface": "concrete",
+        "width": "5"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            110.4269134,
+            -6.9711271
+          ],
+          [
+            110.4265258,
+            -6.9712349
+          ],
+          [
+            110.4263882,
+            -6.9712688
+          ],
+          [
+            110.4259344,
+            -6.9713877
+          ],
+          [
+            110.4255897,
+            -6.9714634
+          ]
+        ]
+      },
+      "id": "way/1302466477"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1302466487",
+        "highway": "service",
+        "lanes": "1",
+        "motorcycle": "yes",
+        "name": "Jalan Taman Tawang",
+        "oneway": "yes",
+        "smoothness": "good",
+        "source": "HOT_InAWARESurvey_2018",
+        "surface": "paving_stones",
+        "width": "8"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            110.4262575,
+            -6.9660924
+          ],
+          [
+            110.4266158,
+            -6.9657947
+          ],
+          [
+            110.4267304,
+            -6.9657141
+          ],
+          [
+            110.4270681,
+            -6.9654767
+          ]
+        ]
+      },
+      "id": "way/1302466487"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1302466488",
+        "highway": "primary",
+        "lanes": "1",
+        "motorcycle": "yes",
+        "name": "Jalan Empu Tantular",
+        "oneway": "yes",
+        "smoothness": "good",
+        "source": "HOT_InAWARESurvey_2018",
+        "surface": "paving_stones",
+        "width": "10"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            110.4251045,
+            -6.9681828
+          ],
+          [
+            110.425093,
+            -6.9680605
+          ],
+          [
+            110.4250928,
+            -6.9679412
+          ],
+          [
+            110.425111,
+            -6.967508
+          ]
+        ]
+      },
+      "id": "way/1302466488"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1304017628",
+        "highway": "secondary",
+        "lanes": "1",
+        "motorcycle": "yes",
+        "name": "Jalan K.H. Agus Salim",
+        "oneway": "yes",
+        "smoothness": "good",
+        "source": "HOT_InAWARESurvey_2018",
+        "surface": "concrete",
+        "width": "5"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            110.4251507,
+            -6.9714262
+          ],
+          [
+            110.424386,
+            -6.9713898
+          ],
+          [
+            110.4241028,
+            -6.9713666
+          ],
+          [
+            110.4240378,
+            -6.9713613
+          ]
+        ]
+      },
+      "id": "way/1304017628"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1304301977",
+        "highway": "service",
+        "service": "parking_aisle"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            110.428147,
+            -6.9681123
+          ],
+          [
+            110.4281976,
+            -6.9683366
+          ]
+        ]
+      },
+      "id": "way/1304301977"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1326486764",
+        "highway": "service",
+        "name": "Jalan Komplek Pertokoan Jurnatan",
+        "width": "6"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            110.4286491,
+            -6.9700631
+          ],
+          [
+            110.4295228,
+            -6.9697861
+          ],
+          [
+            110.4295138,
+            -6.9697492
+          ]
+        ]
+      },
+      "id": "way/1326486764"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1334475071",
+        "highway": "living_street",
+        "motorcar": "no"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            110.4262204,
+            -6.971471
+          ],
+          [
+            110.4262716,
+            -6.9716946
+          ],
+          [
+            110.4262869,
+            -6.9717943
+          ],
+          [
+            110.4263031,
+            -6.9719371
+          ],
+          [
+            110.4263966,
+            -6.9719199
+          ]
+        ]
+      },
+      "id": "way/1334475071"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1334519215",
+        "highway": "track"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            110.4272107,
+            -6.9700347
+          ],
+          [
+            110.4272341,
+            -6.97021
+          ],
+          [
+            110.4272479,
+            -6.9702082
+          ],
+          [
+            110.4272652,
+            -6.9703615
+          ]
+        ]
+      },
+      "id": "way/1334519215"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1334519216",
+        "highway": "track"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            110.4272341,
+            -6.97021
+          ],
+          [
+            110.4271245,
+            -6.9702218
+          ]
+        ]
+      },
+      "id": "way/1334519216"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1387986556",
+        "highway": "secondary_link"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            110.4232802,
+            -6.9713081
+          ],
+          [
+            110.4232936,
+            -6.9712129
+          ]
+        ]
+      },
+      "id": "way/1387986556"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1445400811",
+        "highway": "service",
+        "oneway": "yes"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            110.423302,
+            -6.9711124
+          ],
+          [
+            110.4233272,
+            -6.9707936
+          ]
+        ]
+      },
+      "id": "way/1445400811"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1445400812",
+        "highway": "service",
+        "oneway": "yes"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            110.4232936,
+            -6.9712129
+          ],
+          [
+            110.423302,
+            -6.9711124
+          ]
+        ]
+      },
+      "id": "way/1445400812"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1445400813",
+        "highway": "service",
+        "oneway": "yes"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            110.4233272,
+            -6.9707936
+          ],
+          [
+            110.4232594,
+            -6.9708008
+          ]
+        ]
+      },
+      "id": "way/1445400813"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1445400814",
+        "highway": "service",
+        "oneway": "yes"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            110.4232594,
+            -6.9708008
+          ],
+          [
+            110.4232252,
+            -6.9707656
+          ],
+          [
+            110.4232255,
+            -6.9707008
+          ]
+        ]
+      },
+      "id": "way/1445400814"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1445404887",
+        "highway": "footway"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            110.4232138,
+            -6.9714991
+          ],
+          [
+            110.4239018,
+            -6.971517
+          ]
+        ]
+      },
+      "id": "way/1445404887"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1445405732",
+        "highway": "footway"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            110.4232059,
+            -6.9718464
+          ],
+          [
+            110.4232138,
+            -6.9714991
+          ]
+        ]
+      },
+      "id": "way/1445405732"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1445405733",
+        "highway": "service",
+        "oneway": "yes"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            110.4240936,
+            -6.9716096
+          ],
+          [
+            110.4240971,
+            -6.9715183
+          ],
+          [
+            110.4241028,
+            -6.9713666
+          ]
+        ]
+      },
+      "id": "way/1445405733"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1445405734",
+        "highway": "service",
+        "oneway": "yes"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            110.423945,
+            -6.9713548
+          ],
+          [
+            110.4239389,
+            -6.9715172
+          ],
+          [
+            110.4239354,
+            -6.9716136
+          ]
+        ]
+      },
+      "id": "way/1445405734"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1445684461",
+        "highway": "service",
+        "motorcar": "no"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            110.4250967,
+            -6.9714578
+          ],
+          [
+            110.4250967,
+            -6.9720397
+          ]
+        ]
+      },
+      "id": "way/1445684461"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1445684462",
+        "highway": "service",
+        "motorcar": "no"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            110.4244852,
+            -6.9714259
+          ],
+          [
+            110.4250967,
+            -6.9714578
+          ]
+        ]
+      },
+      "id": "way/1445684462"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1445684463",
+        "highway": "service"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            110.4244731,
+            -6.9720275
+          ],
+          [
+            110.4244852,
+            -6.9714259
+          ]
+        ]
+      },
+      "id": "way/1445684463"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1482102991",
+        "highway": "service",
+        "surface": "paving_stones"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            110.4276375,
+            -6.9683156
+          ],
+          [
+            110.4276167,
+            -6.9684154
+          ]
+        ]
+      },
+      "id": "way/1482102991"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1502376765",
+        "footway": "sidewalk",
+        "highway": "footway",
+        "surface": "paved"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            110.4245238,
+            -6.9679568
+          ],
+          [
+            110.4244593,
+            -6.967992
+          ],
+          [
+            110.4244189,
+            -6.967978
+          ],
+          [
+            110.4243509,
+            -6.9679543
+          ],
+          [
+            110.4242938,
+            -6.9679345
+          ],
+          [
+            110.4242722,
+            -6.9679088
+          ],
+          [
+            110.424251,
+            -6.9678568
+          ],
+          [
+            110.4242478,
+            -6.9678008
+          ],
+          [
+            110.424263,
+            -6.9677468
+          ],
+          [
+            110.4242949,
+            -6.9677005
+          ],
+          [
+            110.4243401,
+            -6.9676668
+          ],
+          [
+            110.4243938,
+            -6.9676494
+          ],
+          [
+            110.4244503,
+            -6.9676501
+          ],
+          [
+            110.4245036,
+            -6.9676688
+          ],
+          [
+            110.4245479,
+            -6.9677036
+          ],
+          [
+            110.424579,
+            -6.9677515
+          ],
+          [
+            110.4245926,
+            -6.9678069
+          ],
+          [
+            110.4245872,
+            -6.9678636
+          ],
+          [
+            110.4245634,
+            -6.9679155
+          ],
+          [
+            110.4245238,
+            -6.9679568
+          ]
+        ]
+      },
+      "id": "way/1502376765"
+    }
+  ]
+}

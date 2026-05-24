@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<title>WebGIS Kota Lama Semarang</title>
+
+<link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css"/>
+<script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+
+<style>
+html, body {
+  margin: 0;
+  height: 100%;
+  font-family: "Segoe UI", Arial, sans-serif;
+}
+
+#map {
+  width: 100%;
+  height: 100vh;
+}
+
+.title-box {
+  position: absolute;
+  top: 24px;
+  left: 70px;
+  z-index: 1000;
+  width: 430px;
+  padding: 22px 26px;
+  border-radius: 24px;
+  background: linear-gradient(135deg, rgba(255,255,255,.95), rgba(248,200,220,.9));
+  box-shadow: 0 14px 35px rgba(0,0,0,.25);
+  border: 1.5px solid rgba(255,182,217,.9);
+}
+
+.title-box .badge {
+  display: inline-block;
+  padding: 6px 12px;
+  border-radius: 999px;
+  background: #A7D8F2;
+  color: #31566d;
+  font-size: 12px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.title-box h1 {
+  margin: 0;
+  font-size: 25px;
+  color: #364866;
+  line-height: 1.25;
+}
+
+.title-box p {
+  margin: 8px 0 0;
+  font-size: 14px;
+  color: #555;
+}
+
+.panel {
+  position: absolute;
+  top: 26px;
+  right: 24px;
+  z-index: 1000;
+  width: 300px;
+  max-height: 78vh;
+  overflow-y: auto;
+  padding: 18px;
+  border-radius: 22px;
+  background: rgba(255,255,255,.94);
+  box-shadow: 0 14px 35px rgba(0,0,0,.25);
+  border: 1.5px solid rgba(167,216,242,.9);
+}
+
+.panel h3 {
+  margin: 0 0 14px;
+  color: #364866;
+  font-size: 18px;
+}
+
+.section-title {
+  margin-top: 16px;
+  margin-bottom: 8px;
+  font-size: 12px;
+  font-weight: 800;
+  letter-spacing: .7px;
+  color: #c94f8a;
+}
+
+.layer-row {
+  display: flex;
+  align-items: center;
+  gap: 9px;
+  margin: 9px 0;
+  font-size: 14px;
+  color: #333;
+}
+
+.layer-row input {
+  accent-color: #c94f8a;
+}
+
+.btn-group {
+  display: flex;
+  gap: 8px;
+  margin: 12px 0;
+}
+
+.btn {
+  flex: 1;
+  border: none;
+  padding: 9px 10px;
+  border-radius: 12px;
+  background: #A7D8F2;
+  color: #294b60;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.btn.off {
+  background: #F8C8DC;
+  color: #79405a;
+}
+
+.legend-box {
+  position: absolute;
+  left: 28px;
+  bottom: 34px;
+  z-index: 1000;
+  width: 260px;
+  padding: 17px;
+  border-radius: 22px;
+  background: rgba(255,255,255,.94);
+  box-shadow: 0 12px 30px rgba(0,0,0,.22);
+  border: 1.5px solid rgba(248,200,220,.9);
+}
+
+.legend-box h3 {
+  margin: 0 0 12px;
+  font-size: 17px;
+  color: #364866;
+}
+
+.legend-item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin: 8px 0;
+  font-size: 14px;
+}
+
+.symbol-poly {
+  width: 28px;
+  height: 15px;
+  border-radius: 5px;
+}
+
+.symbol-line {
+  width: 30px;
+  height: 0;
+}
+
+.leaflet-popup-content-wrapper {
+  border-radius: 18px;
+}
+
+.popup-title {
+  margin: 0 0 10px;
+  color: #c94f8a;
+  font-size: 17px;
+}
+
+.popup-table {
+  border-collapse: collapse;
+  width: 100%;
+  font-size: 13px;
+}
+
+.popup-table td {
+  border: 1px solid #eee;
+  padding: 7px 9px;
+}
+
+.popup-table td:first-child {
+  background: #ffd8e7;
+  font-weight: 700;
+}
+</style>
+</head>
+
+<body>
+
+<div class="title-box">
+  <div class="badge">WEBGIS • KOTA LAMA • SEMARANG</div>
+  <h1>
+    WebGIS Project by Farhana F<br>
+    Kota Lama Semarang
+  </h1>
+  <p>Visualisasi bangunan umum, bangunan ikonik, jaringan jalan, dan kanal kawasan Kota Lama.</p>
+</div>
+
+<div id="map"></div>
+
+<div class="panel">
+  <h3>Layer Control</h3>
+
+  <div class="section-title">BASEMAP</div>
+  <label class="layer-row"><input type="radio" name="basemap" checked onclick="setBasemap('osm')"> OpenStreetMap</label>
+  <label class="layer-row"><input type="radio" name="basemap" onclick="setBasemap('satellite')"> Satellite</label>
+  <label class="layer-row"><input type="radio" name="basemap" onclick="setBasemap('dark')"> Carto Dark</label>
+
+  <div class="section-title">DATA KOTA LAMA</div>
+  <div class="btn-group">
+    <button class="btn" onclick="toggleAll(true)">Semua ON</button>
+    <button class="btn off" onclick="toggleAll(false)">Semua OFF</button>
+  </div>
+
+  <label class="layer-row"><input id="cbBangunan" type="checkbox" checked onchange="toggleLayer(bangunanUmumLayer,this.checked)"> Bangunan Umum</label>
+  <label class="layer-row"><input id="cbIkonik" type="checkbox" checked onchange="toggleLayer(bangunanIkonikLayer,this.checked)"> Bangunan Ikonik</label>
+  <label class="layer-row"><input id="cbJalan" type="checkbox" checked onchange="toggleLayer(jalanLayer,this.checked)"> Jalan Kota Lama</label>
+  <label class="layer-row"><input id="cbKanal" type="checkbox" checked onchange="toggleLayer(kanalLayer,this.checked)"> Kanal/Sungai</label>
+</div>
+
+<div class="legend-box">
+  <h3>Legenda</h3>
+  <div class="legend-item"><span class="symbol-poly" style="background:#ffc2da;border:2px solid #d65d96;"></span> Bangunan Umum</div>
+  <div class="legend-item"><span class="symbol-poly" style="background:#a7d8f2;border:2px solid #4b7bec;"></span> Bangunan Ikonik</div>
+  <div class="legend-item"><span class="symbol-line" style="border-top:3px solid #555;"></span> Jalan</div>
+  <div class="legend-item"><span class="symbol-line" style="border-top:4px solid #7ec8f8;"></span> Kanal/Sungai</div>
+</div>
+
+<script>
+var map = L.map("map").setView([-6.9687,110.4255],17);
+
+var osm = L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
+  attribution:"OpenStreetMap"
+}).addTo(map);
+
+var satellite = L.tileLayer(
+  "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}",
+  { attribution:"Esri" }
+);
+
+var dark = L.tileLayer(
+  "https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png",
+  { attribution:"Carto" }
+);
+
+var currentBasemap = osm;
+
+function setBasemap(type) {
+  map.removeLayer(currentBasemap);
+
+  if (type === "satellite") currentBasemap = satellite;
+  else if (type === "dark") currentBasemap = dark;
+  else currentBasemap = osm;
+
+  currentBasemap.addTo(map);
+}
+
+var bangunanUmumLayer = L.layerGroup().addTo(map);
+var bangunanIkonikLayer = L.layerGroup().addTo(map);
+var jalanLayer = L.layerGroup().addTo(map);
+var kanalLayer = L.layerGroup().addTo(map);
+
+function makePopup(title, props) {
+  let nama = props.name || title;
+  let jenis = props.building === "yes" ? "Bangunan Umum" : (props.building || props.highway || "Objek Spasial");
+  let fungsi = props.amenity || props.tourism || props.shop || "Aktivitas kawasan perkotaan";
+  let sumber = "OpenStreetMap & olahan WebGIS";
+
+  return `
+    <h3 class="popup-title">${nama}</h3>
+    <table class="popup-table">
+      <tr><td>Jenis</td><td>${jenis}</td></tr>
+      <tr><td>Fungsi</td><td>${fungsi}</td></tr>
+      <tr><td>Kawasan</td><td>Kota Lama Semarang</td></tr>
+      <tr><td>Status Data</td><td>Data spasial WebGIS</td></tr>
+      <tr><td>Sumber</td><td>${sumber}</td></tr>
+    </table>
+  `;
+}
+
+function addLayer(fileName, title, style, targetLayer, fit=false) {
+  fetch("data/" + fileName)
+    .then(res => res.json())
+    .then(data => {
+      var layer = L.geoJSON(data, {
+        style: style,
+        onEachFeature: function(feature, lyr) {
+          lyr.on("mouseover", function() {
+            lyr.setStyle({
+              weight: (style.weight || 1) + 1.2
+            });
+          });
+
+          lyr.on("mouseout", function() {
+            lyr.setStyle(style);
+          });
+
+          lyr.bindPopup(makePopup(title, feature.properties));
+        }
+      });
+
+      layer.addTo(targetLayer);
+
+      if (fit && layer.getBounds().isValid()) {
+        map.fitBounds(layer.getBounds(), {
+          padding:[50,50],
+          maxZoom:17
+        });
+      }
+    })
+    .catch(err => console.log("Gagal load:", fileName, err));
+}
+
+addLayer("bangunanreal.geojson", "Bangunan Umum", {
+  color:"#d65d96",
+  weight:1.2,
+  fillColor:"#ffc2da",
+  fillOpacity:0.42
+}, bangunanUmumLayer, true);
+
+addLayer("bangunan_ikonik.geojson", "Bangunan Ikonik", {
+  color:"#4b7bec",
+  weight:2.4,
+  fillColor:"#a7d8f2",
+  fillOpacity:0.9
+}, bangunanIkonikLayer);
+
+addLayer("jalan_real.geojson", "Jalan Kota Lama", {
+  color:"#555",
+  weight:2.2,
+  opacity:0.9
+}, jalanLayer);
+
+addLayer("kanal_real.geojson", "Kanal/Sungai", {
+  color:"#7ec8f8",
+  weight:4,
+  opacity:0.95
+}, kanalLayer);
+
+function toggleLayer(layer, status) {
+  if (status) map.addLayer(layer);
+  else map.removeLayer(layer);
+}
+
+function toggleAll(status) {
+  document.getElementById("cbBangunan").checked = status;
+  document.getElementById("cbIkonik").checked = status;
+  document.getElementById("cbJalan").checked = status;
+  document.getElementById("cbKanal").checked = status;
+
+  toggleLayer(bangunanUmumLayer, status);
+  toggleLayer(bangunanIkonikLayer, status);
+  toggleLayer(jalanLayer, status);
+  toggleLayer(kanalLayer, status);
+}
+
+L.control.scale({
+  metric:true,
+  imperial:false
+}).addTo(map);
+</script>
+
+</body>
+</html>

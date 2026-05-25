@@ -394,20 +394,90 @@ var bangunanIkonikLayer = L.layerGroup().addTo(map);
 var jalanLayer = L.layerGroup().addTo(map);
 var kanalLayer = L.layerGroup().addTo(map);
 
+function getValue(props, keys, fallback = "-") {
+  for (let key of keys) {
+    if (props && props[key] !== undefined && props[key] !== null && props[key] !== "") {
+      return props[key];
+    }
+  }
+  return fallback;
+}
+
+function row(label, value) {
+  if (!value || value === "-") return "";
+  return `<tr><td>${label}</td><td>${value}</td></tr>`;
+}
+
+function formatJenisBangunan(value) {
+  if (!value || value === "-") return "Bangunan Umum";
+  if (value === "yes") return "Bangunan Umum";
+  return value;
+}
+
 function makePopup(title, props) {
-  let nama = props.name || title;
-  let jenis = props.building === "yes" ? "Bangunan Umum" : (props.building || props.highway || "Objek Spasial");
-  let fungsi = props.amenity || props.tourism || props.shop || "Aktivitas kawasan perkotaan";
-  let sumber = "OpenStreetMap & olahan WebGIS";
+  props = props || {};
+
+  let nama = getValue(props, ["name", "Name", "nama", "NAMOBJ"], title);
+  let jenis = "-";
+  let fungsi = "-";
+  let kawasan = "Kota Lama Semarang";
+  let statusData = "Data spasial WebGIS";
+  let sumber = getValue(props, ["source", "Sumber", "sumber"], "OpenStreetMap & olahan WebGIS");
+
+  let alamat = getValue(props, ["addr:full", "addr:street", "addr_street", "alamat", "Alamat"], "-");
+  let operator = getValue(props, ["operator", "Operator", "pengelola"], "-");
+
+  let kondisi = getValue(props, ["kondisi_bangunan", "building:condition", "kondisi"], "-");
+  let fungsiDetail = getValue(props, ["fungsi_detail", "fungsi", "Fungsi"], "-");
+  let statusPemanfaatan = getValue(props, ["status_pemanfaatan", "status"], "-");
+  let jumlahLantai = getValue(props, ["building:levels", "lantai", "jumlah_lantai"], "-");
+  let material = getValue(props, ["building:material", "material"], "-");
+  let atap = getValue(props, ["roof:shape", "building:roof", "atap"], "-");
+
+  if (title === "Bangunan Umum") {
+    jenis = formatJenisBangunan(getValue(props, ["building", "building:type", "jenis", "Jenis"], "Bangunan Umum"));
+    fungsi = getValue(props, ["amenity", "shop", "office", "tourism", "building:use"], "Aktivitas kawasan perkotaan");
+    kawasan = "Kawasan Bangunan Kota Lama";
+    statusData = "Data bangunan umum";
+  }
+
+  else if (title === "Bangunan Ikonik") {
+    jenis = getValue(props, ["historic", "heritage", "tourism", "building", "jenis", "Jenis"], "Bangunan Ikonik/Heritage");
+    fungsi = getValue(props, ["tourism", "amenity", "shop", "office"], "Objek heritage dan wisata");
+    kawasan = "Kawasan Heritage Kota Lama";
+    statusData = "Data bangunan ikonik";
+  }
+
+  else if (title === "Jalan Kota Lama") {
+    jenis = getValue(props, ["highway", "jenis", "Jenis"], "Jaringan Jalan");
+    fungsi = getValue(props, ["surface", "lanes", "oneway"], "Aksesibilitas kawasan");
+    kawasan = "Koridor Jalan Kota Lama";
+    statusData = "Data jaringan jalan";
+  }
+
+  else if (title === "Kanal/Sungai") {
+    jenis = getValue(props, ["waterway", "natural", "jenis", "Jenis"], "Kanal/Sungai");
+    fungsi = getValue(props, ["usage"], "Sistem drainase dan hidrografi kawasan");
+    kawasan = "Sistem Kanal Kota Lama";
+    statusData = "Data kanal/sungai";
+  }
 
   return `
     <h3 class="popup-title">${nama}</h3>
     <table class="popup-table">
-      <tr><td>Jenis</td><td>${jenis}</td></tr>
-      <tr><td>Fungsi</td><td>${fungsi}</td></tr>
-      <tr><td>Kawasan</td><td>Kota Lama Semarang</td></tr>
-      <tr><td>Status Data</td><td>Data spasial WebGIS</td></tr>
-      <tr><td>Sumber</td><td>${sumber}</td></tr>
+      ${row("Jenis", jenis)}
+      ${row("Fungsi", fungsi)}
+      ${row("Fungsi Detail", fungsiDetail)}
+      ${row("Kawasan", kawasan)}
+      ${row("Status Data", statusData)}
+      ${row("Status Pemanfaatan", statusPemanfaatan)}
+      ${row("Kondisi Bangunan", kondisi)}
+      ${row("Jumlah Lantai", jumlahLantai)}
+      ${row("Material", material)}
+      ${row("Bentuk/Jenis Atap", atap)}
+      ${row("Alamat/Jalan", alamat)}
+      ${row("Operator", operator)}
+      ${row("Sumber", sumber)}
     </table>
   `;
 }
@@ -419,14 +489,20 @@ function addLayer(fileName, title, style, targetLayer, fit=false) {
       var layer = L.geoJSON(data, {
         style: style,
         onEachFeature: function(feature, lyr) {
+          console.log(title, feature.properties);
+
           lyr.on("mouseover", function() {
-            lyr.setStyle({
-              weight: (style.weight || 1) + 1.2
-            });
+            if (lyr.setStyle) {
+              lyr.setStyle({
+                weight: (style.weight || 1) + 1.2
+              });
+            }
           });
 
           lyr.on("mouseout", function() {
-            lyr.setStyle(style);
+            if (lyr.setStyle) {
+              lyr.setStyle(style);
+            }
           });
 
           lyr.bindPopup(makePopup(title, feature.properties));
